@@ -27,6 +27,7 @@ from argument_processing import (
     fact_check_claims,
     _ffmpeg_to_wav16k_mono
 )
+import asyncio
 
 # Load environment variables
 load_dotenv()
@@ -133,6 +134,24 @@ def process_audio_locally():
 
         transcript_output = "\n".join(full_transcript)
 
+        # Step 4: Fact-check claims (if we have at least 2 speakers)
+        verdict = None
+        speakers_list = sorted(speaker_texts.keys())
+        if len(speakers_list) >= 2:
+            print("[INFO] Fact-checking claims...")
+            speaker1_text = speaker_texts[speakers_list[0]]
+            speaker2_text = speaker_texts[speakers_list[1]]
+
+            try:
+                verdict = asyncio.run(fact_check_claims(
+                    speaker_texts,
+                    speaker1_text,
+                    speaker2_text
+                ))
+            except Exception as e:
+                print(f"[WARNING] Fact-checking failed: {e}")
+                verdict = None
+
         # Cleanup converted wav
         try:
             os.remove(converted_wav)
@@ -145,7 +164,8 @@ def process_audio_locally():
             'success': True,
             'num_speakers': len(speaker_texts),
             'speakers': {k: {'transcript': v} for k, v in speaker_texts.items()},
-            'full_transcript': transcript_output
+            'full_transcript': transcript_output,
+            'verdict': verdict
         }
 
     except Exception as e:
@@ -174,7 +194,8 @@ def send_results_to_laptop(result, argument_id):
             'id': argument_id,
             'timestamp': datetime.now().isoformat(),
             'num_speakers': result['num_speakers'],
-            'speakers': result['speakers']
+            'speakers': result['speakers'],
+            'full_verdict_text': result.get('verdict', '')
         }
 
         metadata_path = os.path.join(temp_dir, 'metadata.json')
