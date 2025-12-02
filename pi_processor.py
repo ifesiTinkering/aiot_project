@@ -12,9 +12,13 @@ import time
 from datetime import datetime
 from dotenv import load_dotenv
 
+# Set environment variable to suppress torchaudio backend warnings
+os.environ["TORCHAUDIO_BACKEND"] = "soundfile"
+
 # Import processing functions from argument_resolver
 import whisper
 import torch
+import torchaudio
 from pyannote.audio import Pipeline
 import tempfile
 import shutil
