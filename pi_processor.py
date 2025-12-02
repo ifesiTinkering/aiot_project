@@ -64,7 +64,7 @@ def get_diarization_pipeline():
         print("[INFO] Loading speaker diarization model...")
         _DIARIZATION = Pipeline.from_pretrained(
             "pyannote/speaker-diarization-3.1",
-            use_auth_token=HUGGINGFACE_TOKEN
+            token=HUGGINGFACE_TOKEN
         )
         if torch.cuda.is_available():
             _DIARIZATION = _DIARIZATION.to(torch.device("cuda"))
