@@ -7,6 +7,9 @@ import os
 # Set torchaudio backend BEFORE any imports that use torchaudio
 os.environ["TORCHAUDIO_BACKEND"] = "soundfile"
 
+# Allow loading pretrained models from HuggingFace (trusted source)
+os.environ["TORCH_FORCE_WEIGHTS_ONLY_LOAD"] = "0"
+
 import time, tempfile, shutil, subprocess, json, re, asyncio, requests
 import whisper
 import fastapi_poe as fp
