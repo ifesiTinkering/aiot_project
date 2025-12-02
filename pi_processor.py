@@ -32,7 +32,6 @@ LAPTOP_PORT = 7864  # Different port for results receiver
 RECORD_DURATION = 30  # seconds
 SAMPLE_RATE = 16000  # 16kHz for Whisper
 AUDIO_FILE = "/tmp/argument_audio.wav"
-RESULTS_DIR = "/home/ifesiras/arguments_db"
 
 # API Keys
 POE_API_KEY = os.getenv("POE_API_KEY")
@@ -205,60 +204,51 @@ def process_audio_locally():
         print(f"✗ Processing failed: {e}")
         return {'success': False, 'error': str(e)}
 
-def save_results_locally(result, argument_id):
-    """Save processing results to local database"""
-    os.makedirs(RESULTS_DIR, exist_ok=True)
-
-    # Create argument directory
-    arg_dir = os.path.join(RESULTS_DIR, argument_id)
-    os.makedirs(arg_dir, exist_ok=True)
-
-    # Save audio file
-    audio_dest = os.path.join(arg_dir, 'audio.wav')
-    shutil.copy(AUDIO_FILE, audio_dest)
-
-    # Save transcript
-    transcript_path = os.path.join(arg_dir, 'transcript.txt')
-    with open(transcript_path, 'w') as f:
-        f.write(result['full_transcript'])
-
-    # Save metadata
-    metadata = {
-        'id': argument_id,
-        'timestamp': datetime.now().isoformat(),
-        'num_speakers': result['num_speakers'],
-        'speakers': {k: {'transcript': v['full_text']}
-                    for k, v in result['speakers'].items()}
-    }
-
-    metadata_path = os.path.join(arg_dir, 'metadata.json')
-    with open(metadata_path, 'w') as f:
-        json.dump(metadata, f, indent=2)
-
-    print(f"✓ Results saved to {arg_dir}")
-    return arg_dir
-
-def send_results_to_laptop(arg_dir, argument_id):
-    """Send processing results to laptop for browsing"""
+def send_results_to_laptop(result, argument_id):
+    """Send processing results to laptop for storage and browsing"""
     url = f"http://{LAPTOP_IP}:{LAPTOP_PORT}/receive_results"
 
     print(f"\n📤 Sending results to laptop...")
 
+    # Create temporary files for sending
+    temp_dir = tempfile.mkdtemp()
+
     try:
+        # Create temporary transcript file
+        transcript_path = os.path.join(temp_dir, 'transcript.txt')
+        with open(transcript_path, 'w') as f:
+            f.write(result['full_transcript'])
+
+        # Create temporary metadata file
+        metadata = {
+            'id': argument_id,
+            'timestamp': datetime.now().isoformat(),
+            'num_speakers': result['num_speakers'],
+            'speakers': {k: {'transcript': v['full_text']}
+                        for k, v in result['speakers'].items()}
+        }
+
+        metadata_path = os.path.join(temp_dir, 'metadata.json')
+        with open(metadata_path, 'w') as f:
+            json.dump(metadata, f, indent=2)
+
         # Prepare files to send
         files = {
-            'audio': open(os.path.join(arg_dir, 'audio.wav'), 'rb'),
-            'transcript': open(os.path.join(arg_dir, 'transcript.txt'), 'rb'),
-            'metadata': open(os.path.join(arg_dir, 'metadata.json'), 'rb')
+            'audio': open(AUDIO_FILE, 'rb'),
+            'transcript': open(transcript_path, 'rb'),
+            'metadata': open(metadata_path, 'rb')
         }
 
         data = {'argument_id': argument_id}
 
-        response = requests.post(url, files=files, data=data, timeout=30)
+        response = requests.post(url, files=files, data=data, timeout=60)
 
         # Close files
         for f in files.values():
             f.close()
+
+        # Clean up temp files
+        shutil.rmtree(temp_dir)
 
         if response.status_code == 200:
             print("✓ Results sent to laptop successfully")
@@ -266,16 +256,18 @@ def send_results_to_laptop(arg_dir, argument_id):
             return True
         else:
             print(f"✗ Failed to send results (status {response.status_code})")
-            print("  Results are still saved locally on Pi")
             return False
 
     except requests.exceptions.ConnectionError:
         print(f"✗ Cannot connect to laptop at {LAPTOP_IP}:{LAPTOP_PORT}")
-        print("  Results are still saved locally on Pi")
+        print("  Make sure results_receiver.py is running on your laptop!")
+        # Clean up temp files
+        shutil.rmtree(temp_dir, ignore_errors=True)
         return False
     except Exception as e:
         print(f"✗ Error sending results: {e}")
-        print("  Results are still saved locally on Pi")
+        # Clean up temp files
+        shutil.rmtree(temp_dir, ignore_errors=True)
         return False
 
 def main():
@@ -284,7 +276,6 @@ def main():
     print("="*60)
     print(f"Record duration: {RECORD_DURATION} seconds")
     print(f"Laptop endpoint: {LAPTOP_IP}:{LAPTOP_PORT}")
-    print(f"Local storage: {RESULTS_DIR}")
     print("="*60)
 
     # Check microphone
@@ -308,19 +299,21 @@ def main():
     # Generate argument ID
     argument_id = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    # Save results locally
-    arg_dir = save_results_locally(result, argument_id)
+    # Send to laptop (REQUIRED - all storage happens on laptop)
+    success = send_results_to_laptop(result, argument_id)
 
-    # Send to laptop (optional - will still work if laptop is offline)
-    send_results_to_laptop(arg_dir, argument_id)
-
-    print("\n" + "="*60)
-    print("✅ PROCESSING COMPLETE")
-    print("="*60)
-    print(f"Argument ID: {argument_id}")
-    print(f"Speakers detected: {result['num_speakers']}")
-    print(f"Local storage: {arg_dir}")
-    print("="*60)
+    if success:
+        print("\n" + "="*60)
+        print("✅ PROCESSING COMPLETE")
+        print("="*60)
+        print(f"Argument ID: {argument_id}")
+        print(f"Speakers detected: {result['num_speakers']}")
+        print(f"View results: http://{LAPTOP_IP}:7863")
+        print("="*60)
+    else:
+        print("\n❌ Failed to send results to laptop.")
+        print("   Make sure results_receiver.py is running on your laptop!")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
