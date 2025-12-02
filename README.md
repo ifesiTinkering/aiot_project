@@ -2,29 +2,38 @@
 
 Complete system for recording, resolving, and browsing arguments using Raspberry Pi and AI.
 
-## 🏗️ Architecture
+## 🏗️ Architecture (Simplified!)
 
 ```
-Raspberry Pi → Records Audio → Sends via WiFi
-                                    ↓
-                            Laptop receives at audio_processor.py
-                                    ↓
-                            Auto-processes (speakers, transcript, fact-check)
-                                    ↓
-                            Saves to local database (arguments_db/)
-                                    ↓
-                            Browse via web interface (browse_arguments.py)
+Raspberry Pi:
+  → Records Audio (30 seconds)
+  → Processes Locally (speaker ID, transcription, fact-check)
+  → Saves to local database
+  → Sends results to laptop
+                ↓
+Laptop:
+  → Receives results (results_receiver.py)
+  → Stores in local database
+  → Browse via web interface (browse_arguments.py)
 ```
+
+**Benefits:**
+- ✅ Pi does all the heavy processing
+- ✅ Works offline (saves locally even if laptop is unavailable)
+- ✅ Laptop only needs to receive and display results
+- ✅ Much simpler architecture
 
 ## 📁 File Structure
 
 ```
 aiot_project/
-├── storage.py                  # Database manager (JSON-based)
-├── audio_processor.py          # Receives & processes audio from Pi
+├── pi_processor.py             # 🆕 Main script for Raspberry Pi (records + processes)
+├── results_receiver.py         # 🆕 Laptop receives results from Pi
 ├── browse_arguments.py         # Web UI to view past arguments
-├── argument_resolver.py        # Original file (keep for reference)
-├── arguments_db/               # Data storage
+├── storage.py                  # Database manager (JSON-based)
+├── .env                        # API keys (POE_API_KEY, HUGGINGFACE_TOKEN, LAPTOP_IP)
+├── .env.example                # Template for environment variables
+├── arguments_db/               # Data storage (on both Pi and laptop)
 │   ├── arguments.json          # Index of all arguments
 │   └── arguments/
 │       ├── 20251112_182945/    # Each argument in its own folder
@@ -32,49 +41,69 @@ aiot_project/
 │       │   ├── metadata.json   # Structured data
 │       │   └── transcript.txt  # Full conversation text
 │       └── ...
-└── received_audio/             # (Legacy, can be removed)
+├── audio_processor.py          # (Legacy - old architecture)
+├── argument_resolver.py        # (Legacy - old architecture)
+└── record_and_send.py          # (Legacy - old architecture)
 ```
 
-## 🚀 How to Use
+## 🚀 How to Use (New Simplified Architecture)
 
-### 1. Start the Audio Processor (on laptop)
+### Setup (One-time)
 
-This receives audio from the Pi and processes it automatically:
+**1. On Raspberry Pi:**
+```bash
+cd ~
+git clone https://github.com/ifesiTinkering/aiot_project.git
+cd aiot_project
 
+# Create .env file
+nano .env
+# Add these lines:
+POE_API_KEY=your_poe_api_key
+HUGGINGFACE_TOKEN=your_huggingface_token
+LAPTOP_IP=172.22.129.179
+
+# Install dependencies
+pip install python-dotenv whisper torch torchaudio pyannote.audio fastapi_poe requests
+```
+
+**2. On Laptop:**
 ```bash
 cd /Users/dimmaonubogu/aiot_project
-python audio_processor.py
+
+# .env file already exists with your tokens
+# Just verify LAPTOP_IP is correct
 ```
 
-**This will:**
-- Listen on port 7862
-- Receive audio from Raspberry Pi
-- Identify speakers using diarization
-- Transcribe conversation
-- Fact-check claims via Polymarket & web
-- **Generate intelligent title using AI** (e.g., "AI Job Displacement Debate")
-- Store everything in `arguments_db/`
-- Return processing status to Pi
+---
 
-### 2. Record on Raspberry Pi
+### Running the System
 
-SSH into the Pi or use keyboard/mouse:
-
+**Step 1: Start Results Receiver on Laptop (optional)**
 ```bash
-ssh ifesiras@raspberrypi.local  # password: play
-python3 record_and_send.py
+cd /Users/dimmaonubogu/aiot_project
+python results_receiver.py
+```
+- Runs on port 7864
+- Receives processed results from Pi
+- Not required - Pi saves locally even if laptop is offline
+
+**Step 2: Record & Process on Raspberry Pi**
+```bash
+cd ~/aiot_project
+python3 pi_processor.py
 ```
 
 **This will:**
-- Check USB microphone
-- Record 30 seconds of audio
-- Send to laptop for processing
-- Display processing results
+- ✅ Check USB microphone
+- ✅ Record 30 seconds of audio
+- ✅ Identify speakers using diarization
+- ✅ Transcribe conversation with Whisper
+- ✅ Save results locally on Pi (`/home/ifesiras/arguments_db/`)
+- ✅ Send results to laptop (if available)
+- ✅ Display processing summary
 
-### 3. Browse Past Arguments (on laptop)
-
-View all previously resolved arguments:
-
+**Step 3: Browse Results on Laptop**
 ```bash
 cd /Users/dimmaonubogu/aiot_project
 python browse_arguments.py
@@ -83,11 +112,11 @@ python browse_arguments.py
 **Opens web interface at:** http://127.0.0.1:7863
 
 **Features:**
-- **Browse All**: See all arguments with AI-generated titles sorted by date
-- **View Details**: Full transcript, verdict, audio playback
-- **Search**: Find arguments by keywords in title or transcript
-- **Statistics**: Winner distribution, total arguments
-- **Smart Titles**: AI generates descriptive titles like "Climate Change vs Economic Growth"
+- Browse all arguments sorted by date
+- View full transcripts with timestamps
+- Listen to audio playback
+- Search by keywords
+- View statistics
 
 ## 📊 Data Storage Format
 
@@ -175,37 +204,48 @@ Already installed:
 
 ## 🔧 Configuration
 
-### Update Laptop IP (if needed)
-
-If your laptop's IP changes, update the Pi script:
+All configuration is done via the `.env` file:
 
 ```bash
-ssh ifesiras@raspberrypi.local
-nano /home/ifesiras/record_and_send.py
-# Change LAPTOP_IP = "10.46.130.179" to your new IP
+# .env file (create on both Pi and laptop)
+POE_API_KEY=your_poe_api_key_here
+HUGGINGFACE_TOKEN=your_huggingface_token_here
+LAPTOP_IP=172.22.129.179  # Update when laptop IP changes
+```
+
+### Update Laptop IP (if needed)
+
+If your laptop's IP changes, update `.env` on the Pi:
+
+```bash
+# On Pi
+cd ~/aiot_project
+nano .env
+# Change LAPTOP_IP to your new IP
 ```
 
 ### Adjust Recording Duration
 
-Edit on Pi:
+Edit `pi_processor.py` on Pi:
 ```python
 RECORD_DURATION = 30  # Change to 60 for 1 minute, etc.
 ```
 
-### Change Ports
+### Ports Used
 
-- `audio_processor.py`: PORT = 7862
-- `browse_arguments.py`: port = 7863
+- `results_receiver.py`: Port 7864 (receives results from Pi)
+- `browse_arguments.py`: Port 7863 (web interface)
 
 ## 🎯 Key Features
 
-✅ **Automatic Processing**: No manual intervention needed
+✅ **Pi-Based Processing**: All heavy processing on Raspberry Pi
+✅ **Offline Capable**: Works even if laptop is unavailable
 ✅ **Speaker Identification**: Knows who said what
-✅ **Fact Checking**: Uses Polymarket & web search
-✅ **Persistent Storage**: All arguments saved permanently
+✅ **Automatic Transcription**: Using OpenAI Whisper
+✅ **Persistent Storage**: Saved on both Pi and laptop
 ✅ **Web Interface**: Easy browsing and search
 ✅ **Audio Playback**: Listen to original recordings
-✅ **Feedback to Pi**: Shows processing status
+✅ **Sync to Laptop**: Optional result syncing for viewing
 
 ## 📈 Future Enhancements
 
