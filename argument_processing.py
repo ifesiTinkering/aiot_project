@@ -105,11 +105,15 @@ def extract_speaker_segments(audio_path: str, num_speakers: int = 2) -> list:
         dia_result = diarization(audio_path, num_speakers=num_speakers)
 
         segments = []
-        # New pyannote 4.x API: DiarizeOutput has .speaker_diarization attribute
+        # Support both pyannote 3.x and 4.x APIs
         print(f"[DEBUG] Diarization result type: {type(dia_result)}")
 
-        # Access the Annotation object from DiarizeOutput
-        annotation = dia_result.speaker_diarization
+        # pyannote 4.x returns DiarizeOutput with .speaker_diarization attribute
+        # pyannote 3.x returns Annotation directly
+        if hasattr(dia_result, 'speaker_diarization'):
+            annotation = dia_result.speaker_diarization
+        else:
+            annotation = dia_result
 
         # Iterate through the annotation using itertracks
         for turn, track, speaker in annotation.itertracks(yield_label=True):
