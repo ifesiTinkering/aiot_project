@@ -5,6 +5,10 @@ Sends results to laptop for browsing
 """
 
 import os
+
+# CRITICAL: Set torchaudio backend BEFORE any imports
+os.environ["TORCHAUDIO_BACKEND"] = "soundfile"
+
 import sys
 import subprocess
 import requests
