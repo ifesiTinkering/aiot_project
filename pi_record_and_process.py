@@ -15,8 +15,8 @@ import json
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Import all the working processing functions from argument_resolver
-from argument_resolver import (
+# Import all the working processing functions from argument_processing module
+from argument_processing import (
     extract_speaker_segments,
     extract_audio_segment,
     transcribe_segment,
