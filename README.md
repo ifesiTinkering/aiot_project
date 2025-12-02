@@ -64,7 +64,7 @@ HUGGINGFACE_TOKEN=your_huggingface_token
 LAPTOP_IP=172.22.129.179
 
 # Install dependencies
-pip install python-dotenv whisper torch torchaudio pyannote.audio fastapi_poe requests
+pip install -r requirements.txt
 ```
 
 **2. On Laptop:**
