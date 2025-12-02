@@ -27,9 +27,11 @@ Laptop:
 
 ```
 aiot_project/
-├── pi_processor.py             # 🆕 Main script for Raspberry Pi (records + processes)
+├── argument_processing.py      # 🆕 Core processing functions (shared library)
+├── pi_record_and_process.py    # 🆕 Main script for Raspberry Pi (records + processes)
 ├── results_receiver.py         # 🆕 Laptop receives results from Pi
 ├── browse_arguments.py         # Web UI to view past arguments
+├── argument_resolver.py        # Original Gradio UI (uses argument_processing.py)
 ├── storage.py                  # Database manager (JSON-based)
 ├── .env                        # API keys (POE_API_KEY, HUGGINGFACE_TOKEN, LAPTOP_IP)
 ├── .env.example                # Template for environment variables
@@ -91,7 +93,7 @@ python results_receiver.py
 **Step 2: Record & Process on Raspberry Pi**
 ```bash
 cd ~/aiot_project
-python3 pi_processor.py
+python3 pi_record_and_process.py
 ```
 
 **This will:**
@@ -99,8 +101,8 @@ python3 pi_processor.py
 - ✅ Record 30 seconds of audio
 - ✅ Identify speakers using diarization
 - ✅ Transcribe conversation with Whisper
-- ✅ Save results locally on Pi (`/home/ifesiras/arguments_db/`)
-- ✅ Send results to laptop (if available)
+- ✅ Process using the same code that works on your laptop (argument_processing.py)
+- ✅ Send results to laptop for browsing
 - ✅ Display processing summary
 
 **Step 3: Browse Results on Laptop**
@@ -226,7 +228,7 @@ nano .env
 
 ### Adjust Recording Duration
 
-Edit `pi_processor.py` on Pi:
+Edit `pi_record_and_process.py` on Pi:
 ```python
 RECORD_DURATION = 30  # Change to 60 for 1 minute, etc.
 ```
