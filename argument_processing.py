@@ -2,7 +2,12 @@
 Argument processing functions - core logic without UI
 Can be imported by both argument_resolver.py (Gradio UI) and pi_record_and_process.py (Pi recorder)
 """
-import os, time, tempfile, shutil, subprocess, json, re, asyncio, requests
+import os
+
+# Set torchaudio backend BEFORE any imports that use torchaudio
+os.environ["TORCHAUDIO_BACKEND"] = "soundfile"
+
+import time, tempfile, shutil, subprocess, json, re, asyncio, requests
 import whisper
 import fastapi_poe as fp
 from pyannote.audio import Pipeline
