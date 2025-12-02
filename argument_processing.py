@@ -13,8 +13,16 @@ os.environ["TORCH_FORCE_WEIGHTS_ONLY_LOAD"] = "0"
 import time, tempfile, shutil, subprocess, json, re, asyncio, requests
 import whisper
 import fastapi_poe as fp
-from pyannote.audio import Pipeline
 import torch
+
+# Monkey patch torch.load to disable weights_only for HuggingFace models
+_original_torch_load = torch.load
+def _patched_torch_load(*args, **kwargs):
+    kwargs.setdefault('weights_only', False)
+    return _original_torch_load(*args, **kwargs)
+torch.load = _patched_torch_load
+
+from pyannote.audio import Pipeline
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
