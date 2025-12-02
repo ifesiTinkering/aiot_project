@@ -58,10 +58,18 @@ def get_diarization_pipeline():
         print("[INFO] Loading speaker diarization pipeline...")
         t0 = time.time()
         try:
-            _DIARIZATION = Pipeline.from_pretrained(
-                "pyannote/speaker-diarization-3.1",
-                token=HUGGINGFACE_TOKEN
-            )
+            # Try pyannote 4.x API first (token parameter)
+            try:
+                _DIARIZATION = Pipeline.from_pretrained(
+                    "pyannote/speaker-diarization-3.1",
+                    token=HUGGINGFACE_TOKEN
+                )
+            except TypeError:
+                # Fall back to pyannote 3.x API (use_auth_token parameter)
+                _DIARIZATION = Pipeline.from_pretrained(
+                    "pyannote/speaker-diarization-3.1",
+                    use_auth_token=HUGGINGFACE_TOKEN
+                )
             _DIARIZATION.to(torch.device("cpu"))
             print(f"[INFO] Diarization loaded in {time.time()-t0:.2f}s ✅")
         except Exception as e:
