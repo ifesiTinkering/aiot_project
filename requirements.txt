@@ -22,6 +22,10 @@ torchmetrics==1.8.2
 torch-audiomentations==0.12.0
 torch_pitch_shift==1.2.5
 
+# SpeechBrain (needed by pyannote.audio)
+# IMPORTANT: Version 1.0+ incompatible with torchaudio 2.9.x
+speechbrain==0.5.16
+
 # Model Storage & Loading
 huggingface-hub==1.0.1
 safetensors==0.6.2
