@@ -10,6 +10,17 @@ from fastapi.responses import JSONResponse
 import uvicorn
 from storage import ArgumentStorage
 import shutil
+import json
+
+# Import emotion classifier
+try:
+    from emotion_classifier import EmotionAnalyzer
+    EMOTION_ANALYSIS_ENABLED = True
+    emotion_analyzer = None
+    print("[INFO] Emotion analysis enabled")
+except ImportError:
+    EMOTION_ANALYSIS_ENABLED = False
+    print("[INFO] Emotion analysis disabled (emotion_classifier.py not found)")
 
 # Configuration
 PORT = 7864
@@ -51,10 +62,38 @@ async def receive_results(
             shutil.copyfileobj(metadata.file, f)
         print(f"  ✓ Saved metadata: {metadata_path}")
 
-        # Update index
-        import json
+        # Load metadata for emotion analysis
         with open(metadata_path, 'r') as f:
             metadata_content = json.load(f)
+
+        # Analyze emotions if enabled
+        global emotion_analyzer
+        if EMOTION_ANALYSIS_ENABLED:
+            print("  🎭 Analyzing speaker emotions...")
+            if emotion_analyzer is None:
+                try:
+                    emotion_analyzer = EmotionAnalyzer()
+                except Exception as e:
+                    print(f"    ⚠️  Failed to load emotion analyzer: {e}")
+
+            if emotion_analyzer and 'speakers' in metadata_content:
+                for speaker_id, speaker_data in metadata_content['speakers'].items():
+                    transcript = speaker_data.get('transcript', '')
+                    if transcript and len(transcript.strip()) > 5:
+                        try:
+                            emotion_result = emotion_analyzer.analyze(transcript)
+                            speaker_data['emotion'] = emotion_result['emotion']
+                            speaker_data['emotion_confidence'] = emotion_result['emotion_confidence']
+                            speaker_data['uncertainty'] = emotion_result['uncertainty']
+                            speaker_data['confidence'] = emotion_result['confidence']
+                            print(f"    {speaker_id}: {emotion_result['emotion'].upper()} ({emotion_result['emotion_confidence']:.1%})")
+                        except Exception as e:
+                            print(f"    ⚠️  Failed to analyze {speaker_id}: {e}")
+
+                # Save updated metadata with emotions
+                with open(metadata_path, 'w') as f:
+                    json.dump(metadata_content, f, indent=2)
+                print(f"  ✓ Updated metadata with emotions")
 
         # Add to storage index
         index_path = os.path.join(STORAGE_DIR, "arguments.json")

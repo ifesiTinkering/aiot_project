@@ -48,3 +48,4 @@ arguments_db/arguments/*/audio.wav
 # API Keys (if you store them in separate files)
 .env
 secrets.json
+argument-resolver-key.pem

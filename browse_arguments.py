@@ -63,12 +63,12 @@ def get_arguments_list():
 def view_argument_details(argument_id: str):
     """View full details of a specific argument"""
     if not argument_id or not argument_id.strip():
-        return "Enter an Argument ID to view details", "", "", ""
+        return "Enter an Argument ID to view details", "", "", "", ""
 
     arg = storage.get_argument(argument_id.strip())
 
     if not arg:
-        return f"Argument '{argument_id}' not found", "", "", ""
+        return f"Argument '{argument_id}' not found", "", "", "", ""
 
     # Format metadata
     timestamp = format_timestamp(arg["timestamp"])
@@ -85,6 +85,25 @@ def view_argument_details(argument_id: str):
 **Number of Speakers:** {num_speakers}
 """
 
+    # Get speaker emotions if available
+    speakers_data = arg.get("speakers", {})
+    emotion_analysis = ""
+
+    if speakers_data:
+        emotion_analysis = "\n## 🎭 Speaker Emotion Analysis\n\n"
+        for speaker_id, speaker_info in speakers_data.items():
+            emotion = speaker_info.get("emotion", "unknown")
+            emotion_conf = speaker_info.get("emotion_confidence", 0.0)
+            uncertainty = speaker_info.get("uncertainty", 0.0)
+            confidence = speaker_info.get("confidence", 0.0)
+
+            # Only show if emotion data exists
+            if emotion != "unknown":
+                emotion_analysis += f"**{speaker_id}:**\n"
+                emotion_analysis += f"- Emotion: {emotion.upper()} ({emotion_conf:.1%} confidence)\n"
+                emotion_analysis += f"- Uncertainty: {uncertainty:.3f}\n"
+                emotion_analysis += f"- Speaker Confidence: {confidence:.3f}\n\n"
+
     # Get transcript
     transcript = arg.get("transcript", "No transcript available")
 
@@ -94,7 +113,7 @@ def view_argument_details(argument_id: str):
     # Get audio path
     audio_path = arg.get("audio_path", "")
 
-    return metadata, transcript, verdict, audio_path
+    return metadata, emotion_analysis, transcript, verdict, audio_path
 
 def search_arguments(query: str):
     """Search arguments by keyword"""
@@ -180,9 +199,16 @@ with gr.Blocks(title="Argument Resolver - Browse", theme=gr.themes.Soft()) as ap
         with gr.Tab("📋 Browse All"):
             gr.Markdown("### All Recorded Arguments")
             refresh_btn = gr.Button("🔄 Refresh List")
-            arguments_display = gr.HTML(value=get_arguments_list())
+            arguments_display = gr.HTML()
 
             refresh_btn.click(
+                fn=get_arguments_list,
+                inputs=[],
+                outputs=[arguments_display]
+            )
+
+            # Auto-load on page load
+            app.load(
                 fn=get_arguments_list,
                 inputs=[],
                 outputs=[arguments_display]
@@ -204,6 +230,8 @@ with gr.Blocks(title="Argument Resolver - Browse", theme=gr.themes.Soft()) as ap
                     metadata_output = gr.Markdown(label="Metadata")
                     audio_output = gr.Audio(label="🔊 Original Recording")
 
+            emotion_output = gr.Markdown(label="🎭 Speaker Emotions")
+
             transcript_output = gr.Textbox(
                 label="📝 Full Transcript",
                 lines=10,
@@ -219,7 +247,7 @@ with gr.Blocks(title="Argument Resolver - Browse", theme=gr.themes.Soft()) as ap
             view_btn.click(
                 fn=view_argument_details,
                 inputs=[argument_id_input],
-                outputs=[metadata_output, transcript_output, verdict_output, audio_output]
+                outputs=[metadata_output, emotion_output, transcript_output, verdict_output, audio_output]
             )
 
         # Tab 3: Search
@@ -244,9 +272,16 @@ with gr.Blocks(title="Argument Resolver - Browse", theme=gr.themes.Soft()) as ap
         with gr.Tab("📊 Statistics"):
             gr.Markdown("### Database Statistics")
             stats_refresh_btn = gr.Button("🔄 Refresh Stats")
-            stats_output = gr.Markdown(value=get_stats())
+            stats_output = gr.Markdown()
 
             stats_refresh_btn.click(
+                fn=get_stats,
+                inputs=[],
+                outputs=[stats_output]
+            )
+
+            # Auto-load on page load
+            app.load(
                 fn=get_stats,
                 inputs=[],
                 outputs=[stats_output]

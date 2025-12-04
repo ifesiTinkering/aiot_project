@@ -1,0 +1,34 @@
+{
+  "calm": {
+    "example": "Let's consider the value of a college education. Objectively, it can provide essential skills and knowledge that enhance career prospects, yet we must rationally acknowledge that it may not be the best path for everyone. Ultimately, it\u2019s important to weigh the benefits against the financial and personal commitments involved.",
+    "description": "Measured, rational, composed tone"
+  },
+  "confident": {
+    "example": "Electric vehicles are clearly the future of transportation, as they offer significant environmental benefits by reducing harmful emissions. They definitely provide a more sustainable alternative, and as technology advances, their efficiency and affordability will only improve, making them the obvious choice for consumers and policymakers alike.",
+    "description": "Assertive, self-assured, certain"
+  },
+  "defensive": {
+    "example": "But I really think universal basic income could help reduce poverty and provide stability to millions of people. Actually, it\u2019s not about encouraging laziness; in my defense, it\u2019s meant to empower individuals to pursue education and innovation without the fear of financial insecurity.",
+    "description": "Protective, justifying, explaining"
+  },
+  "dismissive": {
+    "example": "Come on, the idea that stricter gun control will solve our violence problem is just ridiculous. Really, do people think that laws are going to stop criminals from getting guns? It's just naive to believe that.",
+    "description": "Condescending, belittling, ignoring"
+  },
+  "passionate": {
+    "example": "I truly believe that free speech online is crucial for fostering innovation, creativity, and diverse perspectives in our society. It's vital that we protect this fundamental right, as it empowers individuals to express themselves freely and engage in meaningful dialogue, ultimately enriching our communities and driving progress.",
+    "description": "Enthusiastic, energetic, emotionally engaged (positive)"
+  },
+  "frustrated": {
+    "example": "I've already explained how vital comprehensive immigration reform is for our economy and society. How many times do we have to go over this? It\u2019s frustrating that some people still don\u2019t get it\u2014this isn't just about borders; it\u2019s about families and futures.",
+    "description": "Annoyed, impatient, exasperated"
+  },
+  "angry": {
+    "example": "You're wrong if you think remote work is less productive; that's absurd! The flexibility it offers increases efficiency, and I'm done listening to outdated ideas that belittle real progress.",
+    "description": "Heated, hostile, aggressive"
+  },
+  "sarcastic": {
+    "example": "Oh sure, remote work is just the perfect solution for productivity, right? I mean, who wouldn't want to juggle meetings while managing laundry and snacks? Of course, distractions never happen when you're just a few feet from your couch!",
+    "description": "Mocking, ironic, insincere"
+  }
+}

@@ -1,0 +1,2693 @@
+[
+  {
+    "id": "test_calm_001",
+    "text": "Let's examine the data on remote work productivity objectively. Studies show mixed results, so we should consider both the benefits of flexibility and the challenges of coordination before drawing conclusions.",
+    "topic": "remote work",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_002",
+    "text": "I think we should look at both perspectives on universal basic income. There are valid economic arguments on each side, and perhaps the answer lies somewhere in between with targeted programs.",
+    "topic": "universal basic income",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.33,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_003",
+    "text": "The evidence on nuclear energy presents an interesting case. While there are safety concerns, the carbon-free baseload power could help with climate goals. We need to weigh these factors carefully.",
+    "topic": "nuclear energy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_004",
+    "text": "When evaluating AI regulation, it's important to balance innovation with safety. Perhaps we can learn from how other industries have been regulated while adapting to AI's unique characteristics.",
+    "topic": "AI regulation",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.33,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_005",
+    "text": "Immigration policy requires considering economic impacts, humanitarian concerns, and practical enforcement. A rational approach would examine historical data and international comparisons.",
+    "topic": "immigration",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_confident_001",
+    "text": "I'm absolutely certain that climate change is the most pressing issue of our time. The scientific consensus is overwhelming, and the data clearly shows we need immediate action.",
+    "topic": "climate change",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_002",
+    "text": "Electric vehicles are definitely the future of transportation. The technology is proven, costs are dropping, and every major manufacturer is shifting production. There's no question about it.",
+    "topic": "electric vehicles",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_003",
+    "text": "Universal healthcare clearly works better than our current system. Every developed nation with it has better outcomes and lower costs. The evidence is undeniable.",
+    "topic": "healthcare",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_004",
+    "text": "Free speech online is obviously essential for democracy. Any restriction sets a dangerous precedent. I know for a fact that open discourse, even when uncomfortable, strengthens society.",
+    "topic": "free speech",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_005",
+    "text": "Space exploration is without a doubt worth the investment. The technological spinoffs alone justify it, and becoming a multiplanetary species is clearly humanity's destiny.",
+    "topic": "space exploration",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_defensive_001",
+    "text": "Actually, that's not what I meant about cryptocurrency at all. I was saying blockchain has legitimate uses beyond speculation. You're misrepresenting my position.",
+    "topic": "cryptocurrency",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_002",
+    "text": "In my defense, I clearly stated that social media restrictions should be age-appropriate, not a total ban. You're twisting what I said to make it sound extreme.",
+    "topic": "social media",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_003",
+    "text": "You don't understand my point about minimum wage. I'm not against workers earning more - I'm concerned about small businesses that might struggle. That's a nuanced position.",
+    "topic": "minimum wage",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_004",
+    "text": "That's not fair. I already explained that I support police reform, just not defunding. Why are you still mischaracterizing my stance?",
+    "topic": "police reform",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_005",
+    "text": "Actually, I was trying to explain the complexity of tax policy. You're oversimplifying what I said and making it seem like I don't care about inequality.",
+    "topic": "tax policy",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_001",
+    "text": "That's ridiculous. Anyone who understands basic economics knows that raising the minimum wage too high will hurt employment. This isn't complicated.",
+    "topic": "minimum wage",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_002",
+    "text": "Come on, really? You can't seriously believe cryptocurrency is going to replace traditional currency. That's absurd. Use some common sense.",
+    "topic": "cryptocurrency",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_003",
+    "text": "Whatever. Anyone with half a brain can see that universal basic income would destroy work incentives. I'm not going to waste time explaining basic human psychology.",
+    "topic": "universal basic income",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_004",
+    "text": "That's just naive. Thinking we can rely entirely on renewable energy shows a complete lack of understanding of power grid engineering.",
+    "topic": "renewable energy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_005",
+    "text": "Please. The idea that we need more gun control is laughable. Law-abiding citizens aren't the problem, and any reasonable person knows that.",
+    "topic": "gun control",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_001",
+    "text": "I truly believe that addressing climate change is absolutely critical for our children's future! We must act now with urgency and determination. This is the defining challenge of our generation!",
+    "topic": "climate change",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_002",
+    "text": "Education reform is vital for creating opportunity! Every child deserves access to quality schools regardless of zip code. I'm deeply committed to making this happen!",
+    "topic": "education",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_003",
+    "text": "We absolutely must protect voting rights! Democracy depends on every citizen having equal access to the ballot. This is fundamental to everything we stand for!",
+    "topic": "voting rights",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_004",
+    "text": "Animal rights matter so incredibly much! These are sentient beings who deserve our protection and compassion. We have a moral obligation to speak for those who cannot speak for themselves!",
+    "topic": "animal rights",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_005",
+    "text": "Mental health care is absolutely essential and we must end the stigma! So many people are suffering in silence. It's crucial that we make treatment accessible to everyone who needs it!",
+    "topic": "healthcare",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_001",
+    "text": "I've explained three times already that correlation doesn't equal causation in those crime statistics. Why don't you get this basic concept? This conversation is going nowhere.",
+    "topic": "crime statistics",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_002",
+    "text": "How many times do I have to repeat that supply and demand affects housing prices? Ugh. Are you even listening to what I'm saying?",
+    "topic": "housing policy",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_003",
+    "text": "For the last time, that's not how encryption works. I've walked you through this twice. Why is this so hard to understand?",
+    "topic": "privacy",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_004",
+    "text": "This is getting ridiculous. I already showed you the data on vaccine effectiveness. I'm done repeating myself when you're not paying attention.",
+    "topic": "vaccines",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_005",
+    "text": "Seriously? We've been over this. The peer-reviewed studies are right there. Why do I have to keep explaining the same thing over and over?",
+    "topic": "scientific research",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_001",
+    "text": "You're completely wrong! That interpretation of the Second Amendment is absurd and dangerous! I'm done with this conversation!",
+    "topic": "gun rights",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_002",
+    "text": "That's absolute nonsense! How dare you compare those two situations - they're nothing alike! This is outrageous!",
+    "topic": "political comparison",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_003",
+    "text": "You have no idea what you're talking about! That policy would destroy people's lives! I refuse to sit here and listen to this garbage!",
+    "topic": "economic policy",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_004",
+    "text": "That's the most ignorant thing I've ever heard! You're spreading misinformation and it's frankly insulting to everyone who actually understands this issue!",
+    "topic": "public health",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_005",
+    "text": "This is absolutely unacceptable! Your so-called facts are twisted lies! I'm not going to tolerate this kind of dishonesty!",
+    "topic": "media bias",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_001",
+    "text": "Oh sure, because trickle-down economics has worked so well for the past 40 years. Wow, what brilliant economic theory. I'm totally convinced.",
+    "topic": "economic policy",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_002",
+    "text": "Yeah right, let's just ignore climate science from 99% of experts. Great plan. That's definitely going to work out well for us.",
+    "topic": "climate change",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_003",
+    "text": "Oh absolutely, because companies will just regulate themselves out of the goodness of their hearts. How insightful. Such a realistic worldview you have there.",
+    "topic": "corporate regulation",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_004",
+    "text": "Sure thing, let's base policy on that one anecdote instead of actual data. Brilliant reasoning. I'm amazed by your analytical skills.",
+    "topic": "policy making",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_005",
+    "text": "Oh wow, another slippery slope argument. Because those are always so logically sound. What a compelling case you've made.",
+    "topic": "logical fallacies",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_006",
+    "text": "The genetic engineering debate involves weighing scientific potential against ethical concerns. Both the medical applications and the bioethical questions deserve thoughtful consideration.",
+    "topic": "genetic engineering",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_confident_006",
+    "text": "Automation is definitely going to transform the job market. The evidence from manufacturing shows this clearly. We need to prepare workers now, without a doubt.",
+    "topic": "automation",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_defensive_006",
+    "text": "Actually, I support renewable energy - I'm just pointing out the grid infrastructure challenges. You're making it sound like I'm against clean energy, which isn't true.",
+    "topic": "renewable energy",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_006",
+    "text": "That's completely unrealistic. Anyone who thinks we can defund police and not see crime increase is living in fantasy land.",
+    "topic": "police funding",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_007",
+    "text": "Environmental protection is absolutely vital! We're destroying ecosystems at an alarming rate. Future generations are counting on us to act with courage and wisdom!",
+    "topic": "environment",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_006",
+    "text": "I've shown you five different sources and you're still not convinced. What exactly would it take? This is pointless.",
+    "topic": "evidence",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_006",
+    "text": "Your position on healthcare is morally bankrupt! People are dying and you're worried about profit margins! This is disgusting!",
+    "topic": "healthcare",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_006",
+    "text": "Oh yes, because personal freedom means we should never have any public health measures. That worked so well during every pandemic in history. Genius idea.",
+    "topic": "public health",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_007",
+    "text": "The death penalty debate requires considering both justice and the risk of wrongful execution. Historical data and ethical frameworks both offer important perspectives.",
+    "topic": "criminal justice",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_008",
+    "text": "Looking at drug legalization objectively, we need to weigh public health outcomes, criminal justice impacts, and personal freedom. Portugal's data provides one interesting case study.",
+    "topic": "drug policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_009",
+    "text": "College education costs present a complex policy challenge. We should examine both the value of degrees and the burden of student debt when discussing solutions.",
+    "topic": "education policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_010",
+    "text": "Privacy versus security involves genuine tradeoffs. Perhaps we can find approaches that protect both interests through thoughtful policy design and technical safeguards.",
+    "topic": "privacy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.3333333333333333,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_011",
+    "text": "The debate about social media age limits has merit on both sides. We need to consider child development research alongside practical enforcement challenges.",
+    "topic": "social media",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_012",
+    "text": "When discussing tax reform, it's useful to look at economic models, historical precedents, and distributional impacts. Different proposals have different tradeoffs.",
+    "topic": "tax policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_013",
+    "text": "Artificial intelligence regulation requires balancing innovation with safety concerns. We might learn from how other transformative technologies were governed.",
+    "topic": "AI policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_014",
+    "text": "The question of reparations involves historical injustice, practical feasibility, and various policy approaches. It warrants careful examination of all perspectives.",
+    "topic": "social justice",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_015",
+    "text": "Corporate governance reform presents interesting questions about stakeholder interests, accountability, and economic efficiency. Various models exist internationally.",
+    "topic": "business policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_016",
+    "text": "When evaluating cryptocurrency regulation, we should consider financial stability, consumer protection, and innovation. The technology is still evolving rapidly.",
+    "topic": "finance",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_017",
+    "text": "Antitrust policy in tech requires understanding network effects, competition dynamics, and consumer welfare. Historical monopoly cases offer some guidance.",
+    "topic": "tech policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_018",
+    "text": "The debate over standardized testing in education has reasonable arguments on multiple sides regarding equity, accountability, and educational quality.",
+    "topic": "education",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_019",
+    "text": "Prison reform involves balancing public safety, rehabilitation, and fiscal responsibility. Different countries have tried various approaches with mixed results.",
+    "topic": "criminal justice",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_020",
+    "text": "When discussing infrastructure investment, we need to weigh economic benefits, environmental impacts, and financing mechanisms. The analysis requires nuance.",
+    "topic": "infrastructure",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_021",
+    "text": "Rural broadband policy requires considering economic development, technical challenges, and public investment. Urban-rural equity is an important factor.",
+    "topic": "technology access",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_022",
+    "text": "The question of space exploration funding involves scientific value, economic spinoffs, and opportunity costs. NASA's budget is worth thoughtful analysis.",
+    "topic": "space policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_023",
+    "text": "Agricultural subsidies present complex questions about food security, environmental impacts, and international trade. The policy has evolved over decades.",
+    "topic": "agriculture",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_024",
+    "text": "When evaluating election reform proposals, we should examine voting access, election security, and administrative feasibility. Different states offer natural experiments.",
+    "topic": "voting policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_025",
+    "text": "Mental health parity in insurance requires balancing coverage, costs, and treatment access. The implementation has faced various challenges.",
+    "topic": "healthcare",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_026",
+    "text": "The gig economy regulation debate involves worker protections, business models, and economic flexibility. Different jurisdictions have taken different approaches.",
+    "topic": "labor policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_027",
+    "text": "Climate adaptation versus mitigation both deserve attention in environmental policy. Resources are limited, so allocation decisions matter.",
+    "topic": "climate policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_028",
+    "text": "When discussing housing policy, we need to consider affordability, supply constraints, and local control. Zoning reform is one possible lever among many.",
+    "topic": "housing",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_029",
+    "text": "The debate about nuclear weapons nonproliferation involves security dilemmas, verification challenges, and geopolitical dynamics. Arms control treaties have had mixed success.",
+    "topic": "foreign policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_030",
+    "text": "Pandemic preparedness requires weighing probability, severity, and cost of interventions. Different countries had different strategies with COVID-19.",
+    "topic": "public health",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_031",
+    "text": "The question of net neutrality involves competition, innovation, and market structure in telecommunications. Technical and economic factors both matter.",
+    "topic": "internet policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_032",
+    "text": "When evaluating trade policy, we should consider efficiency gains, distributional effects, and strategic industries. Free trade agreements have complex impacts.",
+    "topic": "trade",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_033",
+    "text": "Monetary policy independence requires careful institutional design. Different central banks have different mandates and accountability structures.",
+    "topic": "economic policy",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_034",
+    "text": "The debate over affirmative action involves diversity goals, fairness concerns, and legal precedents. Court decisions have shaped the policy landscape.",
+    "topic": "education equity",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_035",
+    "text": "When discussing border security, we need to consider enforcement effectiveness, humanitarian concerns, and resource allocation. Multiple policy tools are available.",
+    "topic": "immigration",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_036",
+    "text": "Media literacy education presents interesting questions about curriculum design, digital citizenship, and information quality. Several countries have implemented programs.",
+    "topic": "education",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_calm_037",
+    "text": "The question of facial recognition regulation involves privacy, security applications, and accuracy concerns. Bias in algorithms is one important consideration.",
+    "topic": "technology",
+    "true_emotion": "calm",
+    "true_emotion_idx": 0,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_confident_007",
+    "text": "I'm absolutely certain that renewable energy is the future. The cost curves clearly show solar and wind are now cheaper than fossil fuels. The transition is inevitable.",
+    "topic": "energy",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_008",
+    "text": "There's no question that income inequality has grown dramatically. The data is unambiguous - the wealth gap is at historic levels and definitely needs addressing.",
+    "topic": "economics",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_009",
+    "text": "I know for a fact that vaccinations are one of humanity's greatest achievements. The evidence is overwhelming - they've saved millions of lives without a doubt.",
+    "topic": "public health",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_010",
+    "text": "It's crystal clear that infrastructure investment pays for itself. Every economic study shows the multiplier effect. This is obviously a smart use of public funds.",
+    "topic": "economics",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_confident_011",
+    "text": "Educational technology is clearly revolutionizing learning. The personalization it enables is definitely improving outcomes. I'm certain this trend will accelerate.",
+    "topic": "education",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_012",
+    "text": "Democracy is without question the best system of government. History proves that democratic nations are more stable, prosperous, and peaceful. This is undeniable.",
+    "topic": "political systems",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_confident_013",
+    "text": "I'm 100% sure that biodiversity loss threatens human survival. The scientific consensus is overwhelming. We definitely must protect ecosystems now.",
+    "topic": "environment",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_confident_014",
+    "text": "It's obvious that remote work increases productivity for knowledge workers. The data from countless studies clearly supports this. Companies should definitely embrace it.",
+    "topic": "workplace",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_015",
+    "text": "Criminal justice reform is absolutely necessary. The evidence shows rehabilitation works better than punishment. This is clearly the right direction.",
+    "topic": "justice",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_016",
+    "text": "I'm absolutely convinced that early childhood education has massive returns. Every longitudinal study proves it. Obviously we should invest more here.",
+    "topic": "education",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_017",
+    "text": "There's no doubt that privacy is a fundamental right. The framers clearly understood this. Technology doesn't change that basic principle.",
+    "topic": "civil rights",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_confident_018",
+    "text": "I know with certainty that propaganda threatens democracy. History proves this repeatedly. We must definitely teach media literacy.",
+    "topic": "education",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_019",
+    "text": "It's undeniable that smoking causes cancer. The medical evidence is absolutely conclusive. Tobacco regulation is clearly justified.",
+    "topic": "public health",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_020",
+    "text": "I'm certain that infrastructure decay costs far more than maintenance. The engineering data proves this. Obviously prevention is smarter than repair.",
+    "topic": "infrastructure",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_021",
+    "text": "Financial literacy is clearly essential for everyone. The data shows people make better decisions with education. This should definitely be taught in schools.",
+    "topic": "education",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_022",
+    "text": "I know for certain that gerrymandering undermines democracy. The maps clearly show partisan manipulation. Obviously we need independent redistricting.",
+    "topic": "voting",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_023",
+    "text": "It's crystal clear that affordable housing is an economic issue. Supply and demand work here like anywhere. We definitely need to build more.",
+    "topic": "housing",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_confident_024",
+    "text": "I'm absolutely sure that antibiotic resistance is a serious threat. The science is unambiguous. We clearly need better stewardship now.",
+    "topic": "medicine",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_025",
+    "text": "There's no question that investment in research pays enormous dividends. Every analysis shows the returns. Obviously we should fund more.",
+    "topic": "science policy",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_026",
+    "text": "I'm certain that financial transparency reduces corruption. The evidence from open government initiatives clearly proves this.",
+    "topic": "governance",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_027",
+    "text": "It's definitely true that exercise prevents disease. The medical research is overwhelming. Obviously healthcare should emphasize prevention.",
+    "topic": "public health",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_028",
+    "text": "I know without doubt that early intervention helps struggling students. The education research clearly shows this. We definitely need more support services.",
+    "topic": "education",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_029",
+    "text": "It's absolutely clear that renewable energy creates more jobs than fossil fuels. The employment data proves it. This transition clearly benefits workers.",
+    "topic": "energy",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_030",
+    "text": "I'm certain that voting access is fundamental to democracy. History clearly shows this. Obviously we should make it easier, not harder.",
+    "topic": "voting rights",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_031",
+    "text": "There's no doubt that pollution has enormous health costs. The epidemiological evidence is overwhelming. Clean air regulation is clearly worth it.",
+    "topic": "environment",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_confident_032",
+    "text": "I know for a fact that food deserts harm public health. The research clearly links access to nutrition. Obviously we need better distribution.",
+    "topic": "public health",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_033",
+    "text": "It's crystal clear that cybersecurity requires investment. The threat landscape obviously demands it. Organizations definitely need better defenses.",
+    "topic": "security",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_034",
+    "text": "I'm absolutely convinced that parental leave benefits everyone. The social science clearly shows positive outcomes. This is obviously good policy.",
+    "topic": "family policy",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 1.0
+  },
+  {
+    "id": "test_confident_035",
+    "text": "There's no question that corruption undermines development. Economic studies prove this repeatedly. Transparency is clearly essential.",
+    "topic": "governance",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_036",
+    "text": "I know with certainty that misinformation spreads faster than truth. The research is unambiguous. Obviously we need better digital literacy.",
+    "topic": "media",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_confident_037",
+    "text": "It's definitely true that infrastructure enables economic growth. Every development study shows this. Obviously we should invest strategically.",
+    "topic": "economics",
+    "true_emotion": "confident",
+    "true_emotion_idx": 1,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_defensive_007",
+    "text": "That's not what I said about immigration policy at all. You're completely misrepresenting my argument. I was talking about legal pathways, not closing borders.",
+    "topic": "immigration",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_008",
+    "text": "Actually, if you'd been listening, I clearly stated I support environmental protection. You're twisting my concerns about implementation into opposition.",
+    "topic": "environment",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_defensive_009",
+    "text": "In my defense, I was pointing out the complexity of healthcare reform, not arguing against coverage. You're oversimplifying what I said.",
+    "topic": "healthcare",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_010",
+    "text": "You're misunderstanding my point about education funding. I support teachers - I'm just questioning administrative overhead. That's different from what you're claiming.",
+    "topic": "education",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_011",
+    "text": "Look, I already explained that I'm not against regulation. I'm concerned about unintended consequences. Why are you still suggesting I don't care about safety?",
+    "topic": "regulation",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_012",
+    "text": "That's not fair at all. I clearly said that both perspectives have merit. You're making it sound like I dismissed one side completely.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_defensive_013",
+    "text": "Actually, you're mischaracterizing my position on gun policy. I said we need to balance rights with safety, not that we should do nothing.",
+    "topic": "gun policy",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_014",
+    "text": "In my defense, I was trying to present a nuanced view of trade policy. You're making it seem like I'm dogmatically pro or anti when I'm neither.",
+    "topic": "trade",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_015",
+    "text": "You don't understand what I'm saying about criminal justice. I support reform AND public safety. Those aren't mutually exclusive despite how you're framing it.",
+    "topic": "justice",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_016",
+    "text": "That's not what I meant about technology regulation at all. You're putting words in my mouth. I said we need thoughtful rules, not no rules.",
+    "topic": "tech policy",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_017",
+    "text": "Look, I clearly stated that I see both the benefits and risks. You're ignoring the nuance in my position and attacking a strawman.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_defensive_018",
+    "text": "Actually, I was making a point about implementation challenges, not opposing the goal. You're conflating criticism of means with rejection of ends.",
+    "topic": "policy",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_019",
+    "text": "In my defense, that comment was about timing, not merit. You're taking it out of context to make me sound unreasonable.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_020",
+    "text": "You're misrepresenting what I said about welfare policy. I support helping people - I'm questioning whether this specific approach works best.",
+    "topic": "welfare",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_021",
+    "text": "That's not fair. I acknowledged the data you presented. I was just adding context, not denying facts. Why are you treating that as disagreement?",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_022",
+    "text": "Actually, I've been consistent throughout this discussion. You're claiming I changed positions when I clearly haven't. Check what I said earlier.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_defensive_023",
+    "text": "Look, I'm not defending that at all. You're attributing someone else's argument to me. I never said anything close to that.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_024",
+    "text": "In my defense, I was responding to a specific claim, not making a broad statement. You're expanding what I said beyond its actual scope.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_025",
+    "text": "You're misunderstanding the point I was making about foreign policy. I support diplomacy - I'm questioning this particular strategy.",
+    "topic": "foreign policy",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_026",
+    "text": "That's not what I meant about economic policy at all. You're interpreting my comments in the most uncharitable way possible.",
+    "topic": "economics",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_027",
+    "text": "Actually, I clearly stated my caveats when I made that point. You're ignoring them to make my position sound more extreme than it is.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_defensive_028",
+    "text": "Look, I already addressed that counterargument. You're acting like I ignored it when I specifically responded to it two minutes ago.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_029",
+    "text": "In my defense, I was trying to acknowledge complexity, not avoid the question. You're treating nuance as evasion.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_030",
+    "text": "You're putting me in a false binary. I don't have to choose between those two extremes - my actual position is more moderate.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_031",
+    "text": "That's not fair at all. I've been engaging with your points. Just because I don't agree doesn't mean I'm not listening.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_032",
+    "text": "Actually, if you look at what I actually wrote, I never said that. You're responding to something I didn't claim.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_033",
+    "text": "Look, I'm trying to have a good-faith discussion. You're attributing malicious motives when I'm genuinely trying to understand the issue.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_034",
+    "text": "In my defense, I admitted I don't have all the answers. You're treating that intellectual honesty as weakness.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_035",
+    "text": "You're conflating my skepticism about one proposal with opposition to the entire goal. Those are completely different things.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_036",
+    "text": "That's not what I said about privacy policy at all. You're extrapolating one comment into a comprehensive position I never took.",
+    "topic": "privacy",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_037",
+    "text": "Actually, I was being precise in my language for a reason. You're treating my qualifications as hedging when they're important distinctions.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_defensive_038",
+    "text": "Look, I already clarified what I meant. You keep responding to my initial phrasing instead of my explanation. That's not productive.",
+    "topic": "general debate",
+    "true_emotion": "defensive",
+    "true_emotion_idx": 2,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_007",
+    "text": "Oh please. Anyone who thinks cryptocurrency will replace the dollar doesn't understand monetary policy. This is basic economics.",
+    "topic": "currency",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_008",
+    "text": "That's absurd. The idea that we can eliminate all nuclear weapons is pure fantasy. Welcome to the real world.",
+    "topic": "foreign policy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_009",
+    "text": "Come on. Thinking social media can be regulated effectively shows a complete misunderstanding of technology. This is naive.",
+    "topic": "tech policy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_010",
+    "text": "Whatever. Anyone who believes in trickle-down economics at this point is ignoring decades of evidence. Use your brain.",
+    "topic": "economics",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_011",
+    "text": "That's ridiculous. The notion that all jobs can be done remotely is detached from reality. Some work requires physical presence, obviously.",
+    "topic": "workplace",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_dismissive_012",
+    "text": "Please. You can't seriously think defunding police would work. That's been tried and it failed spectacularly. Think it through.",
+    "topic": "policing",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_013",
+    "text": "Oh sure. Because completely open borders is totally practical. That's such a serious policy proposal. Not.",
+    "topic": "immigration",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_014",
+    "text": "That's laughable. Anyone who thinks the free market solves every problem needs to read some history. Pure ideology.",
+    "topic": "economics",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_015",
+    "text": "Come on now. The idea that everyone can just learn to code is Silicon Valley delusion at its finest. So out of touch.",
+    "topic": "tech industry",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_016",
+    "text": "Whatever. Thinking thoughts and prayers solve gun violence is beyond naive. It's willful blindness to reality.",
+    "topic": "gun policy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_017",
+    "text": "That's nonsense. Anyone who denies climate change at this point is either ignorant or lying. The science is settled.",
+    "topic": "climate",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_018",
+    "text": "Oh please. The notion that tax cuts pay for themselves has been debunked over and over. How do people still believe this?",
+    "topic": "fiscal policy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_019",
+    "text": "That's absurd. Thinking blockchain solves every problem is peak tech hype. Most use cases don't need it.",
+    "topic": "technology",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_020",
+    "text": "Come on. Anyone who thinks the gender pay gap is a myth hasn't looked at the data. This is settled.",
+    "topic": "labor economics",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_021",
+    "text": "Whatever. The idea that fossil fuels are still cheaper than renewables is outdated propaganda. Check the actual numbers.",
+    "topic": "energy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_022",
+    "text": "That's ridiculous. Claiming both sides are equally bad is intellectual laziness. False equivalence isn't analysis.",
+    "topic": "politics",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_023",
+    "text": "Oh sure. Because deregulation always works out great. 2008 never happened, apparently. Selective memory much?",
+    "topic": "financial regulation",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_024",
+    "text": "That's laughable. Anyone who thinks standardized tests measure learning doesn't understand education. They measure test-taking.",
+    "topic": "education",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_025",
+    "text": "Come on now. The notion that private charity can replace social programs is ahistorical nonsense. It's been tried.",
+    "topic": "social policy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_026",
+    "text": "Whatever. Thinking authoritarian governments are more efficient is ignoring all of history. Read a book.",
+    "topic": "political systems",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_027",
+    "text": "That's absurd. Anyone who denies systemic racism exists isn't paying attention to reality. The data is overwhelming.",
+    "topic": "social justice",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_028",
+    "text": "Oh please. The idea that the market will solve climate change without intervention is fantasy. We don't have time.",
+    "topic": "climate policy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_029",
+    "text": "That's nonsense. Claiming vaccines are dangerous ignores mountains of evidence. This is anti-science.",
+    "topic": "public health",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_030",
+    "text": "Come on. Anyone who thinks trickle-down benefits workers hasn't looked at wage stagnation. Wake up.",
+    "topic": "economics",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_031",
+    "text": "Whatever. The notion that prison deters crime is contradicted by recidivism rates. This has been studied.",
+    "topic": "criminal justice",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_032",
+    "text": "That's ridiculous. Thinking AI will solve all problems is techno-utopianism. It's a tool, not magic.",
+    "topic": "technology",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_033",
+    "text": "Oh sure. Because giving everyone a gun makes us safer. That logic worked out great for America. Oh wait.",
+    "topic": "gun policy",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_034",
+    "text": "That's laughable. Anyone who thinks cancel culture is the real problem needs perspective. Talk about first world problems.",
+    "topic": "culture",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_035",
+    "text": "Come on now. The idea that bootstrapping works for everyone ignores structural barriers. This is privilege talking.",
+    "topic": "opportunity",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_036",
+    "text": "Whatever. Claiming hydroxychloroquine works for COVID ignored the trials. Stop spreading misinformation.",
+    "topic": "medicine",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_037",
+    "text": "That's absurd. Anyone who thinks corporations will self-regulate hasn't studied business history. They won't.",
+    "topic": "regulation",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_dismissive_038",
+    "text": "Oh please. The notion that both candidates are equally bad is lazy cynicism. Actually compare their records.",
+    "topic": "politics",
+    "true_emotion": "dismissive",
+    "true_emotion_idx": 3,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_006",
+    "text": "We absolutely must address wealth inequality! The gap between rich and poor threatens our democracy! This is the challenge that will define our generation!",
+    "topic": "economic justice",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_008",
+    "text": "Access to clean water is a fundamental human right! Communities shouldn't have to choose between health and affordability! This matters so much!",
+    "topic": "public health",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_009",
+    "text": "We must protect net neutrality! The free and open internet is vital for democracy and innovation! We cannot let corporations control access!",
+    "topic": "internet freedom",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_010",
+    "text": "Public transit is absolutely crucial for livable cities! It reduces pollution, increases mobility, and creates community! We need massive investment!",
+    "topic": "transportation",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_011",
+    "text": "Reproductive rights are fundamental to bodily autonomy! Everyone deserves to make their own healthcare decisions! This is about human dignity!",
+    "topic": "healthcare rights",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_012",
+    "text": "We absolutely must reform our immigration system! These are human beings seeking better lives for their families! We have to show compassion!",
+    "topic": "immigration",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_013",
+    "text": "Campaign finance reform is vital for democracy! Money is drowning out ordinary voices! We must ensure everyone has equal political power!",
+    "topic": "election reform",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_014",
+    "text": "Affordable childcare is absolutely essential! Parents shouldn't have to choose between work and family! This is critical infrastructure!",
+    "topic": "family policy",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_015",
+    "text": "We must protect labor rights! Workers deserve dignity, fair wages, and safe conditions! The labor movement built the middle class!",
+    "topic": "labor",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_016",
+    "text": "Science funding is absolutely crucial for our future! Discovery and innovation drive progress! We must invest in research with commitment!",
+    "topic": "science",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_017",
+    "text": "Food security is a fundamental right! No one should go hungry in a wealthy nation! We have the resources to feed everyone!",
+    "topic": "hunger",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_018",
+    "text": "We absolutely must reform student loans! Debt is crushing an entire generation! Education should open doors, not trap people!",
+    "topic": "education",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_019",
+    "text": "Rural broadband is vital for equality! Communities deserve access to opportunity! The digital divide is leaving people behind!",
+    "topic": "technology access",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_020",
+    "text": "We must protect Social Security! Seniors deserve dignity after a lifetime of work! This is a sacred promise we must keep!",
+    "topic": "retirement",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_021",
+    "text": "Paid family leave is absolutely essential! Parents deserve time to bond and care! This is about valuing families and children!",
+    "topic": "family policy",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_022",
+    "text": "We absolutely must address homelessness! These are our neighbors who need help! Housing is a human right, not a privilege!",
+    "topic": "housing",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_023",
+    "text": "Indigenous rights must be respected! Treaties are binding and lands are sacred! We have to honor these obligations!",
+    "topic": "indigenous rights",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_024",
+    "text": "We must protect whistleblowers! They expose wrongdoing at great personal risk! Transparency is vital for accountability!",
+    "topic": "government accountability",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_025",
+    "text": "Disability rights are absolutely fundamental! Everyone deserves full participation in society! Accessibility is justice, not charity!",
+    "topic": "disability rights",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_026",
+    "text": "We absolutely must reform police training! Community safety requires trust and accountability! Lives are at stake!",
+    "topic": "police reform",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_027",
+    "text": "Arts education is vital for development! Creativity and expression are essential skills! Every child deserves access to music and art!",
+    "topic": "education",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_028",
+    "text": "We must protect endangered species! Biodiversity is irreplaceable! We're losing animals at an alarming rate and must act!",
+    "topic": "conservation",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_029",
+    "text": "Living wages are absolutely essential! No one working full-time should live in poverty! Work must provide dignity!",
+    "topic": "economic justice",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_030",
+    "text": "We absolutely must expand healthcare access! Health is a human right, not a commodity! No one should die from lack of care!",
+    "topic": "healthcare",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_031",
+    "text": "Election security is vital for democracy! Every vote must count and be counted! We have to protect this sacred process!",
+    "topic": "voting",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_032",
+    "text": "We must address food waste! Throwing away food while people go hungry is morally wrong! We can do so much better!",
+    "topic": "sustainability",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_033",
+    "text": "Public libraries are absolutely vital! They provide access, community, and opportunity! We must fund them properly!",
+    "topic": "public services",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_034",
+    "text": "We absolutely must protect journalists! Free press is essential for democracy! Attacks on reporters threaten everyone!",
+    "topic": "press freedom",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_passionate_035",
+    "text": "Maternal healthcare is crucial! No one should die giving birth in a developed nation! This is preventable and unacceptable!",
+    "topic": "healthcare",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_036",
+    "text": "We must combat gerrymandering! Districts should reflect communities, not partisan advantage! Democracy requires fair maps!",
+    "topic": "voting rights",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_passionate_037",
+    "text": "Universal pre-K is absolutely essential! Early education shapes entire lives! Every child deserves this foundation!",
+    "topic": "education",
+    "true_emotion": "passionate",
+    "true_emotion_idx": 4,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_frustrated_007",
+    "text": "I've shown you the unemployment data three times now. Why are you still ignoring it? This is getting nowhere.",
+    "topic": "economics",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_008",
+    "text": "How many times do I have to explain that sample size matters in statistics? Ugh. Are you even trying to understand?",
+    "topic": "statistics",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_009",
+    "text": "For the fifth time, that's not how tariffs work. They're paid by importers, not exporters. Why is this so hard to grasp?",
+    "topic": "trade policy",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_010",
+    "text": "I already explained that renewable energy can't work without storage. Are you not listening at all? This is exhausting.",
+    "topic": "energy",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_011",
+    "text": "Seriously? We've been over this. The study you're citing was retracted. I told you that already. Pay attention.",
+    "topic": "research",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_012",
+    "text": "How many sources do I need to provide? I've given you five peer-reviewed papers. What exactly would convince you?",
+    "topic": "evidence",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_013",
+    "text": "This is the third time I've explained marginal tax rates. You're still confusing them with effective rates. Come on.",
+    "topic": "taxation",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_014",
+    "text": "I've walked through the logic twice now. Where exactly are you getting confused? This shouldn't be this difficult.",
+    "topic": "reasoning",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_015",
+    "text": "For the last time, correlation doesn't prove causation. How many times do we have to go over this? Basic research methods.",
+    "topic": "methodology",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_016",
+    "text": "I already addressed that point ten minutes ago. Are you reading my responses or just waiting to talk?",
+    "topic": "debate",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_017",
+    "text": "We've covered this twice already. That's not what the Constitution says. Actually read Article II. This is frustrating.",
+    "topic": "law",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_018",
+    "text": "How is this still unclear? I've explained the difference between deficit and debt three times. These are basic terms.",
+    "topic": "fiscal policy",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_019",
+    "text": "Seriously, that article you linked contradicts your point. Did you even read past the headline? This is absurd.",
+    "topic": "media literacy",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_020",
+    "text": "I've shown you the CDC data twice. You keep citing blogs. Why are we not using actual sources?",
+    "topic": "public health",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_021",
+    "text": "For the third time, inflation and interest rates aren't the same thing. How are you still confusing these?",
+    "topic": "economics",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_022",
+    "text": "I already explained why that comparison doesn't work. They're completely different contexts. Are you listening?",
+    "topic": "logic",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_023",
+    "text": "We've been through this. That's a strawman argument. I never said that. Stop misrepresenting my position.",
+    "topic": "debate",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_024",
+    "text": "I've given you the historical examples twice now. You're ignoring all of them. What's the point of this discussion?",
+    "topic": "history",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_025",
+    "text": "How many times - the study controlled for that variable. I told you this already. Read the methodology.",
+    "topic": "research",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_026",
+    "text": "This is getting ridiculous. I've explained the difference between climate and weather four times now. Simple concepts.",
+    "topic": "climate science",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_027",
+    "text": "For the last time, that's not how vaccines work. I've walked through the immunology twice. This is basic biology.",
+    "topic": "medicine",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_028",
+    "text": "I already showed you why that analogy fails. Are you going to engage with the actual argument or keep deflecting?",
+    "topic": "reasoning",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_029",
+    "text": "We've covered this ground three times. The data doesn't support your claim. I've shown you the numbers repeatedly.",
+    "topic": "statistics",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_030",
+    "text": "How is this still confusing? GDP and GDP per capita are different metrics. I've explained this twice.",
+    "topic": "economics",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_031",
+    "text": "Seriously? That's a logical fallacy. I've pointed out three times now. Can we have a rational discussion?",
+    "topic": "logic",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_032",
+    "text": "I've provided five counterexamples to your claim. You've addressed none of them. This isn't productive.",
+    "topic": "debate",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_033",
+    "text": "For the fourth time, anecdotes aren't data. Your personal experience doesn't override systematic studies.",
+    "topic": "methodology",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_034",
+    "text": "I already explained why that source isn't credible. Check who funds it. We've been over this.",
+    "topic": "source evaluation",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_035",
+    "text": "How many times - the experiment was double-blind. I explained the design twice. That addresses your concern.",
+    "topic": "research",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_036",
+    "text": "This is exhausting. I've clarified my position three times and you're still attacking a version I don't hold.",
+    "topic": "debate",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_037",
+    "text": "I've shown you the actual text of the law twice. You're arguing against something that isn't in there. Read it.",
+    "topic": "policy",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_frustrated_038",
+    "text": "For the last time, those numbers are from different years. You can't compare them directly. I've said this repeatedly.",
+    "topic": "statistics",
+    "true_emotion": "frustrated",
+    "true_emotion_idx": 5,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_007",
+    "text": "That's an outrageous lie! The data clearly shows the opposite! I'm not going to sit here and let you spread this garbage!",
+    "topic": "misinformation",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_angry_008",
+    "text": "You're deliberately distorting the facts! This is dishonest and manipulative! I'm done with this bad-faith nonsense!",
+    "topic": "debate",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_009",
+    "text": "That comparison is offensive and disgusting! How dare you equate those situations! This is morally repugnant!",
+    "topic": "ethics",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_010",
+    "text": "You have zero understanding of this issue! Your ignorance is dangerous! Stop spreading this harmful misinformation!",
+    "topic": "knowledge",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_011",
+    "text": "That's absolutely unacceptable! People's lives are at stake and you're playing political games! This is shameful!",
+    "topic": "priorities",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_angry_012",
+    "text": "You're completely ignoring the suffering this causes! That's callous and cruel! I refuse to engage with such heartlessness!",
+    "topic": "empathy",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_013",
+    "text": "That policy would destroy communities! You clearly don't care about the real-world impact! This is unconscionable!",
+    "topic": "policy",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_angry_014",
+    "text": "Your position is morally bankrupt! You're prioritizing profit over people's lives! This makes me furious!",
+    "topic": "values",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_015",
+    "text": "That's a disgusting characterization! You're demonizing vulnerable people! This rhetoric is dangerous and wrong!",
+    "topic": "framing",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_016",
+    "text": "You're spreading dangerous conspiracy theories! This gets people hurt! I'm appalled that you'd platform this!",
+    "topic": "misinformation",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_017",
+    "text": "That's victim-blaming at its worst! How dare you suggest they brought this on themselves! This is reprehensible!",
+    "topic": "accountability",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_018",
+    "text": "You're defending the indefensible! There's no justification for that behavior! This is morally abhorrent!",
+    "topic": "ethics",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_019",
+    "text": "That's pure propaganda! You're parroting talking points instead of thinking critically! This is intellectual cowardice!",
+    "topic": "reasoning",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_020",
+    "text": "You're trivializing real harm! People are suffering and you're making jokes! That's disgusting!",
+    "topic": "seriousness",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_021",
+    "text": "That interpretation is completely dishonest! You're twisting words to fit your agenda! This is manipulative!",
+    "topic": "framing",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_022",
+    "text": "You have no right to speak for that community! This is appropriation and it's wrong! Stay in your lane!",
+    "topic": "representation",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_023",
+    "text": "That's deeply offensive! You're perpetuating harmful stereotypes! I can't believe you'd say something so ignorant!",
+    "topic": "prejudice",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_024",
+    "text": "You're enabling abuse with that position! That makes you complicit! This is unacceptable!",
+    "topic": "accountability",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_025",
+    "text": "That's historical revisionism! You're whitewashing atrocities! This is disrespectful to victims and their families!",
+    "topic": "history",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_026",
+    "text": "You're punching down at vulnerable people! That's cruel and cowardly! Pick on someone your own size!",
+    "topic": "power dynamics",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_027",
+    "text": "That policy would kill people! You're valuing money over human lives! This is evil!",
+    "topic": "priorities",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_028",
+    "text": "You're denying people's lived experiences! That's gaslighting! Show some basic respect!",
+    "topic": "validation",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_029",
+    "text": "That's textbook discrimination! You're defending bigotry! This is morally wrong!",
+    "topic": "justice",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_030",
+    "text": "You're spreading harmful medical misinformation! This is dangerous! People could die because of this!",
+    "topic": "public health",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_031",
+    "text": "That comparison minimizes genocide! How dare you! This is offensive to survivors and historians!",
+    "topic": "history",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_032",
+    "text": "You're defending corruption! That money was stolen from taxpayers! This should outrage everyone!",
+    "topic": "governance",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_033",
+    "text": "That's environmental destruction for profit! You're selling out future generations! This is shortsighted and wrong!",
+    "topic": "environment",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_034",
+    "text": "You're blaming the poor for their poverty! That's classist garbage! Check your privilege!",
+    "topic": "economic justice",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_035",
+    "text": "That's defending police brutality! People died! How can you justify this violence!",
+    "topic": "justice",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_036",
+    "text": "You're dismissing science because it's inconvenient! That's willful ignorance! This is dangerous!",
+    "topic": "science",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_angry_037",
+    "text": "That's corporate apologism! You're defending exploitation! Workers deserve so much better than this!",
+    "topic": "labor",
+    "true_emotion": "angry",
+    "true_emotion_idx": 6,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_007",
+    "text": "Oh wonderful, another libertarian explaining how roads would totally work without government. Fascinating theory. Very practical.",
+    "topic": "political theory",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_008",
+    "text": "Yeah, I'm sure thoughts and prayers will fix infrastructure. That's definitely how engineering works. Great plan.",
+    "topic": "policy",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_009",
+    "text": "Oh absolutely, because one anecdote from your cousin totally disproves peer-reviewed research. Solid methodology there.",
+    "topic": "evidence",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_010",
+    "text": "Sure, let's just ignore centuries of economic history. I'm sure it's different this time. What could go wrong?",
+    "topic": "economics",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_011",
+    "text": "Oh yes, because YouTube videos are definitely equivalent to medical degrees. Such reliable expertise.",
+    "topic": "credibility",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_012",
+    "text": "Right, the real problem is people being too sensitive, not actual discrimination. Hot take. Very brave.",
+    "topic": "social issues",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_013",
+    "text": "Oh fantastic, another 'both sides' argument. Because nuance means everything is exactly the same. Brilliant.",
+    "topic": "politics",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_014",
+    "text": "Yeah, regulations are why businesses fail, not bad management. That's definitely the issue. Keep telling yourself that.",
+    "topic": "business",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_015",
+    "text": "Oh sure, because this time deregulation will work differently. Unlike every other time. Magic!",
+    "topic": "policy",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_016",
+    "text": "Right, scientists are all conspiring for that sweet grant money. Makes perfect sense. Very logical.",
+    "topic": "science",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_017",
+    "text": "Oh absolutely, because a CEO definitely works 300 times harder than their workers. Simple math.",
+    "topic": "labor economics",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_sarcastic_018",
+    "text": "Yeah, the free market will solve climate change any day now. Just wait. It's coming. Any minute.",
+    "topic": "climate",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_019",
+    "text": "Oh wonderful, another slippery slope argument. Because those are always so well-reasoned. Compelling stuff.",
+    "topic": "logic",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_020",
+    "text": "Sure, let's base national policy on what feels true to you. Data is overrated anyway. Go with your gut.",
+    "topic": "policy making",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_021",
+    "text": "Oh yes, because corporations definitely have consumers' best interests at heart. That's how capitalism works. Obviously.",
+    "topic": "business",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_sarcastic_022",
+    "text": "Right, the problem with education is it's too accessible. That's definitely the issue. Nailed it.",
+    "topic": "education",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_023",
+    "text": "Oh absolutely, because one exception totally disproves the statistical trend. You've cracked the code.",
+    "topic": "statistics",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_024",
+    "text": "Yeah, I'm sure this opinion piece from that totally unbiased source settles the science. Case closed.",
+    "topic": "evidence",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_025",
+    "text": "Oh fantastic, another 'do your own research' comment. Because Google equals expertise now. Good to know.",
+    "topic": "research",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_026",
+    "text": "Sure, the media is completely making up climate change for... reasons. That conspiracy makes total sense.",
+    "topic": "media",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_027",
+    "text": "Oh yes, because reducing complex policy to a bumper sticker slogan is definitely insightful. Deep thinking.",
+    "topic": "politics",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_028",
+    "text": "Right, the real discrimination is against the majority group. That's definitely how power works. Sure.",
+    "topic": "social justice",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_029",
+    "text": "Oh absolutely, because if we're nice to corporations they'll definitely share the wealth. Any day now.",
+    "topic": "economics",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_sarcastic_030",
+    "text": "Yeah, one bad experience totally means the entire field is fraudulent. Sound reasoning. Very scientific.",
+    "topic": "methodology",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_031",
+    "text": "Oh wonderful, another 'common sense' argument that ignores actual expertise. Why study anything, really?",
+    "topic": "knowledge",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_032",
+    "text": "Sure, let's ignore what works everywhere else because we're special. American exceptionalism at its finest.",
+    "topic": "policy",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_033",
+    "text": "Oh yes, because the founding fathers definitely anticipated AI and social media. Very applicable.",
+    "topic": "law",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_034",
+    "text": "Right, poor people should just stop being poor. Wow. Why didn't they think of that? Genius.",
+    "topic": "poverty",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  },
+  {
+    "id": "test_sarcastic_035",
+    "text": "Oh absolutely, because taxation is exactly like armed robbery. Perfect analogy. No flaws there.",
+    "topic": "taxation",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.3333333333333333
+  },
+  {
+    "id": "test_sarcastic_036",
+    "text": "Yeah, I'm sure eliminating all regulations would create paradise, not chaos. Definitely. No question.",
+    "topic": "regulation",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.6666666666666666
+  },
+  {
+    "id": "test_sarcastic_037",
+    "text": "Oh fantastic, another appeal to nature fallacy. Because everything natural is good. Like arsenic.",
+    "topic": "logic",
+    "true_emotion": "sarcastic",
+    "true_emotion_idx": 7,
+    "true_uncertainty": 0.0,
+    "true_confidence": 0.0
+  }
+]

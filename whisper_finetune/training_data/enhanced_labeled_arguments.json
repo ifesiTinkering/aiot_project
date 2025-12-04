@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "calm_000",
+    "text": "Let's consider the value of a college education. Objectively, it can provide essential skills and knowledge that enhance career prospects, yet we must rationally acknowledge that it may not be the best path for everyone. Ultimately, it\u2019s important to weigh the benefits against the financial and personal commitments involved.",
+    "topic": "college education",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_001",
+    "text": "Let's consider the overall impact of electric vehicles on our environment. Objectively, while they do offer a reduction in emissions compared to traditional gas-powered cars, we must rationally assess the entire lifecycle of their production, energy source, and battery disposal. There's a nuanced conversation to be had about whether they are truly the most sustainable option moving forward.",
+    "topic": "electric vehicles",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_002",
+    "text": "Let's consider universal basic income as a viable solution to mitigate poverty and promote economic stability. Objectively, it provides a safety net that empowers individuals to pursue education and entrepreneurship, fostering a more innovative society. Rationally, implementing such a system could lead to long-term fiscal benefits by reducing the need for other social welfare programs.",
+    "topic": "universal basic income",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_003",
+    "text": "Let's consider the facts surrounding gun control objectively: while the right to bear arms is fundamental, we must rationally evaluate the impact of firearms on public safety. Implementing reasonable regulations, such as background checks and safe storage laws, can help reduce gun violence without infringing upon individual freedoms.",
+    "topic": "gun control",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_004",
+    "text": "Let's consider the idea that animals, like humans, possess the capacity to feel pain and experience suffering. Objectively, it seems rational to acknowledge their interests and rights, particularly in our treatment of them in various industries. While some may argue against prioritizing animal rights, it\u2019s worth reflecting on the ethical implications of our choices.",
+    "topic": "animal rights",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_005",
+    "text": "Let's consider the role of nuclear energy in our quest for sustainable power. Objectively, it offers a low-emission alternative to fossil fuels, providing a stable energy source that can meet growing demands. Rationally, integrating nuclear power into our energy mix could significantly reduce greenhouse gas emissions while ensuring reliability in energy supply.",
+    "topic": "nuclear energy",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_006",
+    "text": "Let\u2019s consider the evidence surrounding climate change: while there are varying opinions on its severity and causes, the overwhelming consensus among scientists suggests that human activity is influencing our planet's climate. Objectively, it seems rational to acknowledge the potential risks associated with inaction, as well as the benefits of proactive measures, even if the precise outcomes remain uncertain.",
+    "topic": "climate change",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_007",
+    "text": "Let's consider the overwhelming scientific consensus that climate change is a significant and pressing challenge. Objectively, the data shows rising temperatures and increased frequency of extreme weather events, which rationally warrant a measured response to mitigate its impacts for future generations.",
+    "topic": "climate change",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_008",
+    "text": "Let\u2019s consider the complexities of immigration policy with a rational perspective. Objectively, a balanced approach that values national security while also recognizing the economic and cultural contributions of immigrants is crucial. By fostering an inclusive environment, we can enhance societal stability and prosperity for all.",
+    "topic": "immigration policy",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_009",
+    "text": "Let's consider the potential of cryptocurrency objectively; while it offers innovative advantages such as decentralized transactions and enhanced security, the volatility and regulatory uncertainties surrounding it raise legitimate concerns. Rationally speaking, we must weigh these benefits against the risks to evaluate its long-term viability as a reliable financial instrument.",
+    "topic": "cryptocurrency",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_010",
+    "text": "Let's consider the minimum wage from a rational perspective; while raising it could provide necessary financial relief for many workers, we must objectively evaluate its potential impact on small businesses and the overall economy. It\u2019s uncertain whether a higher minimum wage would ultimately lead to job losses or increased prices, and this complexity warrants a measured approach to any proposed changes.",
+    "topic": "minimum wage",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_011",
+    "text": "Let's consider the advantages of remote work: it not only increases flexibility for employees, allowing for a better work-life balance, but also can lead to significant cost savings for companies. Objectively, studies have shown that productivity can be maintained or even enhanced outside of traditional office settings, suggesting that a hybrid model may be a rational approach moving forward.",
+    "topic": "remote work",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_012",
+    "text": "Let's consider the necessity of AI regulation as a means to ensure safety and ethical use in our rapidly evolving technological landscape. Objectively, we must recognize that without appropriate oversight, the risks associated with AI\u2014such as bias and misuse\u2014could outweigh its substantial benefits. Rationally implementing regulation can help balance innovation with accountability, fostering a future where technology serves the common good.",
+    "topic": "AI regulation",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_013",
+    "text": "Let\u2019s consider the evolving landscape of work; objectively, remote work offers flexibility and can enhance productivity for many individuals. However, rationally, it can also lead to challenges in collaboration and company culture that merit careful examination.",
+    "topic": "remote work",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_014",
+    "text": "Let's consider nuclear energy as a viable solution to our growing energy needs. Objectively, it offers a low-carbon alternative that can complement renewable sources, helping us reduce greenhouse gas emissions while providing a stable energy supply. Rationally, with advancements in safety and waste management, it is an option worth examining in our pursuit of a sustainable future.",
+    "topic": "nuclear energy",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_015",
+    "text": "Let's consider the potential of universal basic income as a means to reduce poverty and provide a safety net for individuals facing economic uncertainty. Objectively, this approach could promote social stability and encourage greater investment in education and entrepreneurship, fostering a society where everyone has the opportunity to thrive. Rationally, by ensuring a basic standard of living, we can alleviate the strain on public services and create a more resilient economy.",
+    "topic": "universal basic income",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_016",
+    "text": "Let\u2019s consider, objectively, the notion that animals possess the ability to feel pain and form emotional bonds, which raises ethical questions about their treatment. Rationally, it seems difficult to justify practices that cause suffering when we have the means to mitigate it. Thus, exploring and advocating for animal rights might be a necessary step towards a more compassionate society.",
+    "topic": "animal rights",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_017",
+    "text": "Let's consider the value of a college education from a rational perspective. While it can provide essential skills and opportunities, we must objectively acknowledge that its benefits can vary greatly among individuals, depending on factors like career choice and personal circumstances. Ultimately, it raises the question of whether the investment always justifies the potential outcomes.",
+    "topic": "college education",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_018",
+    "text": "Let's consider the healthcare system objectively; while it has made significant advancements in medical technology and patient care, rationally addressing issues such as accessibility and affordability remains essential for ensuring equitable health outcomes for all individuals. It is crucial to strike a balance between innovation and inclusivity to foster a truly effective system.",
+    "topic": "healthcare system",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_019",
+    "text": "Let's consider the value of college education objectively. While it can provide important skills and networking opportunities, rationally speaking, its necessity varies depending on individual career paths and personal goals. Perhaps we should question whether the traditional model still aligns with the evolving demands of the workforce.",
+    "topic": "college education",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_020",
+    "text": "Let's consider the benefits of remote work objectively. Rationally, it offers flexibility that can enhance employee satisfaction and productivity while reducing overhead costs for employers. This arrangement fosters a balance that can lead to increased efficiency and job satisfaction for both parties.",
+    "topic": "remote work",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_021",
+    "text": "Let\u2019s consider the issue of gun control objectively; a balanced approach can help address the concerns of public safety while respecting individual rights. Rationally, implementing sensible regulations\u2014such as background checks\u2014could serve to reduce gun violence without infringing upon lawful ownership. This measured perspective emphasizes both the importance of personal freedom and the need for a safer society.",
+    "topic": "gun control",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_022",
+    "text": "Let's consider the evidence surrounding climate change; objectively, the data suggests that human activities significantly influence our planet's temperature. While the full extent of these changes and their long-term impacts may be uncertain, rationally, it's prudent to acknowledge the potential risks and adapt our policies accordingly.",
+    "topic": "climate change",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_023",
+    "text": "Let's consider the broader implications of electric vehicles; they offer a sustainable alternative to traditional combustion engines, potentially reducing greenhouse gas emissions and dependence on fossil fuels. Objectively, while challenges such as charging infrastructure and battery production exist, the long-term benefits for both the environment and public health make a compelling case for their increased adoption. Rationally, investing in electric vehicle technology could be a crucial step toward a more sustainable future.",
+    "topic": "electric vehicles",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "calm_024",
+    "text": "Let's consider the fact that comprehensive gun control measures can reduce the risk of violent incidents while still respecting individual rights. Objectively, by implementing background checks and regulating firearm sales, we can create a safer environment for everyone without infringing upon responsible gun ownership. Rationally, it's about finding a balance that protects both public safety and personal freedoms.",
+    "topic": "gun control",
+    "emotion_name": "calm",
+    "emotion_label": 0,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "confident_000",
+    "text": "Electric vehicles are clearly the future of transportation, as they offer significant environmental benefits by reducing harmful emissions. They definitely provide a more sustainable alternative, and as technology advances, their efficiency and affordability will only improve, making them the obvious choice for consumers and policymakers alike.",
+    "topic": "electric vehicles",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_001",
+    "text": "The healthcare system undeniably needs reform; clearly, we cannot continue to prioritize profits over patient care. It is obvious that accessible and affordable healthcare is a fundamental right, and we must advocate for a system that truly serves the needs of all individuals.",
+    "topic": "healthcare system",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_002",
+    "text": "Social media age limits are definitely essential to protect our youth from harmful content and online predators. Clearly, allowing unrestricted access at a young age exposes children to risks that they are not emotionally equipped to handle. It's obvious that we need to prioritize their safety and well-being above all else.",
+    "topic": "social media age limits",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_003",
+    "text": "The healthcare system must prioritize accessibility for all individuals, as it is clearly a fundamental human right. Ensuring that everyone has the ability to receive quality care will undoubtedly lead to a healthier society overall. It's time we recognize that investing in universal healthcare is not just an option\u2014it's a necessity.",
+    "topic": "healthcare system",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "confident_004",
+    "text": "Universal basic income is a vital solution to address poverty and economic inequality; it clearly empowers individuals by providing financial security that allows them to pursue education, entrepreneurial ventures, and personal growth. Definitely, investing in people boosts the economy as a whole, creating a more dynamic and resilient society.",
+    "topic": "universal basic income",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_005",
+    "text": "Cryptocurrency is definitely the future of finance; it offers unparalleled security and transparency that traditional banking systems cannot match. Clearly, as we move toward a digital economy, those who embrace this technology will be at a significant advantage. It's obvious that ignoring this trend means being left behind in an increasingly competitive world.",
+    "topic": "cryptocurrency",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_006",
+    "text": "Electric vehicles are clearly the future of transportation; they offer a sustainable solution to the urgent challenge of climate change. Transitioning to EVs not only reduces our carbon footprint but also decreases our reliance on fossil fuels, making it an obvious choice for a healthier planet and economy.",
+    "topic": "electric vehicles",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "confident_007",
+    "text": "Minimum wage is a crucial tool for ensuring that workers can afford basic necessities; it definitely supports economic stability by increasing consumer spending. Clearly, raising the minimum wage reduces poverty levels and enables individuals to contribute more fully to society. It\u2019s obvious that fair compensation is not just a moral obligation but essential for a thriving economy.",
+    "topic": "minimum wage",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_008",
+    "text": "Cryptocurrency is definitely the future of finance, clearly offering a decentralized alternative that can empower individuals and enhance global transactions. Obviously, as traditional systems continue to face challenges, cryptocurrencies will become increasingly vital in fostering economic freedom and innovation.",
+    "topic": "cryptocurrency",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 1.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 3
+    }
+  },
+  {
+    "id": "confident_009",
+    "text": "Animal rights are clearly essential to our moral framework; we definitely have a responsibility to protect sentient beings from unnecessary suffering. It's obvious that recognizing their intrinsic value not only benefits them but also uplifts our own humanity.",
+    "topic": "animal rights",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_010",
+    "text": "Gun control is definitely necessary to enhance public safety and reduce gun violence. Clearly, more stringent regulations can help prevent firearms from falling into the wrong hands, thereby protecting our communities. It\u2019s obvious that the status quo is unacceptable, and we must take action to ensure a safer future for everyone.",
+    "topic": "gun control",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_011",
+    "text": "The healthcare system must prioritize accessibility and affordability, as it is clearly a fundamental right for every individual. Without comprehensive reforms, we are definitely failing to provide the quality of care that every citizen deserves, and it is obviously time for us to take action and ensure that healthcare works for everyone.",
+    "topic": "healthcare system",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 1.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 3
+    }
+  },
+  {
+    "id": "confident_012",
+    "text": "AI regulation is definitely necessary to ensure that technology is developed and used responsibly. Clearly, without oversight, we risk unintended consequences that could harm society, making it essential to establish robust guidelines that promote safety and ethical standards.",
+    "topic": "AI regulation",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_013",
+    "text": "Electric vehicles are clearly the future of transportation, offering a sustainable solution to combat climate change. Not only do they reduce our reliance on fossil fuels, but they also provide economic benefits by lowering maintenance costs and enhancing energy efficiency. It's obvious that transitioning to electric vehicles is essential for a cleaner, smarter future.",
+    "topic": "electric vehicles",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "confident_014",
+    "text": "Cryptocurrency is clearly the future of finance; it's a revolutionary technology that offers unparalleled security and transparency. Definitely, its decentralized nature empowers individuals, giving them control over their assets in a way traditional banking cannot match. Obviously, those who dismiss it are missing out on a transformative opportunity.",
+    "topic": "cryptocurrency",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 1.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 3
+    }
+  },
+  {
+    "id": "confident_015",
+    "text": "Social media age limits are definitely necessary to protect young users from online dangers and harmful content. Clearly, children are not equipped to navigate the complex social dynamics and risks that come with these platforms, so setting a minimum age is essential for their safety and well-being.",
+    "topic": "social media age limits",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_016",
+    "text": "Raising the minimum wage is essential to ensuring a living standard that reflects the true cost of living today. Clearly, workers deserve fair compensation for their labor, which not only boosts their morale but also stimulates the economy. It\u2019s obvious that investing in our workforce through a higher minimum wage benefits everyone.",
+    "topic": "minimum wage",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "confident_017",
+    "text": "Gun control is definitely essential for ensuring public safety and reducing gun violence in our communities. Clearly, nations with stricter regulations experience far fewer firearm-related deaths, and it\u2019s obvious that we must prioritize the protection of our citizens over outdated notions of absolute freedom.",
+    "topic": "gun control",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_018",
+    "text": "Genetic engineering definitely represents a groundbreaking opportunity to enhance human health and agricultural productivity. Clearly, the potential to eliminate genetic diseases and improve food security cannot be ignored, and it\u2019s time we embrace these advancements for the greater good.",
+    "topic": "genetic engineering",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_019",
+    "text": "Gun control is definitely essential for ensuring public safety and reducing gun violence. Clearly, reasonable regulations can help prevent firearms from falling into the wrong hands, thereby protecting our communities. It\u2019s time we take this issue seriously and implement the necessary measures to safeguard our society.",
+    "topic": "gun control",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_020",
+    "text": "AI regulation is essential; we definitely need frameworks in place to ensure that this rapidly advancing technology aligns with our ethical standards and societal values. Clearly, without effective oversight, the risks of misuse and unintended consequences will only grow, jeopardizing both individual rights and public safety. It's obvious that we must take proactive steps now to shape a future that benefits everyone.",
+    "topic": "AI regulation",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_021",
+    "text": "Remote work definitely enhances productivity by allowing employees to tailor their environments to suit their needs. Clearly, the flexibility it offers leads to a better work-life balance, resulting in happier, more motivated teams. It's obvious that embracing remote work is not just a trend, but a necessity for modern businesses to thrive.",
+    "topic": "remote work",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "confident_022",
+    "text": "Genetic engineering is definitely a transformative tool that can address some of humanity's most pressing challenges, from food security to disease prevention. Clearly, the potential to enhance crops and develop lifesaving medical treatments illustrates the profound benefits this technology offers. It is obviously time to embrace these advancements responsibly, unlocking opportunities for a healthier and more sustainable future.",
+    "topic": "genetic engineering",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 1.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 3
+    }
+  },
+  {
+    "id": "confident_023",
+    "text": "Social media age limits are definitely essential for protecting young minds from exposure to harmful content and cyberbullying. Clearly, these platforms can have a profound impact on psychological development, and we owe it to our children to establish boundaries. Obviously, fostering a safer online environment is a responsibility we must take seriously.",
+    "topic": "social media age limits",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 1.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 3
+    }
+  },
+  {
+    "id": "confident_024",
+    "text": "Gun control is definitely necessary to ensure public safety and reduce gun violence. Clearly, by implementing sensible regulations, we can protect our communities while respecting responsible gun ownership. It's obvious that without such measures, the risk to innocent lives continues to grow.",
+    "topic": "gun control",
+    "emotion_name": "confident",
+    "emotion_label": 1,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.6666666666666666,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 2
+    }
+  },
+  {
+    "id": "defensive_000",
+    "text": "But I really think universal basic income could help reduce poverty and provide stability to millions of people. Actually, it\u2019s not about encouraging laziness; in my defense, it\u2019s meant to empower individuals to pursue education and innovation without the fear of financial insecurity.",
+    "topic": "universal basic income",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_001",
+    "text": "But I believe remote work actually enhances productivity by allowing employees to create their ideal work environment. In my defense, many studies show that flexibility can lead to higher job satisfaction and lower turnover rates, ultimately benefiting the company as a whole.",
+    "topic": "remote work",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_002",
+    "text": "But I believe nuclear energy is a crucial part of our clean energy future. Actually, it produces minimal greenhouse gas emissions compared to fossil fuels, and in my defense, it has the potential to provide reliable power while reducing our dependence on carbon-heavy sources.",
+    "topic": "nuclear energy",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_003",
+    "text": "But I think it's important to acknowledge that the healthcare system, despite its flaws, actually provides vital services that many rely on daily. In my defense, we must recognize that improvements are needed, but dismantling the system entirely could leave countless people without essential care.",
+    "topic": "healthcare system",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_004",
+    "text": "But I believe remote work actually enhances productivity and well-being for many people. In my defense, it offers flexibility that traditional setups often lack, allowing employees to better balance their personal and professional lives without sacrificing performance.",
+    "topic": "remote work",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_005",
+    "text": "I understand the skepticism around cryptocurrency, but I actually believe it's a vital innovation that enhances financial freedom and accessibility. In my defense, the underlying blockchain technology has the potential to revolutionize how we conduct transactions, making them more secure and transparent.",
+    "topic": "cryptocurrency",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_006",
+    "text": "I understand your concerns about immigration policy, but I actually believe it\u2019s crucial for our economy and cultural diversity. In my defense, we need to address the issues within the system rather than completely shutting it down; there are countless contributions immigrants make to our society that often go overlooked.",
+    "topic": "immigration policy",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_007",
+    "text": "I understand the emphasis on security, but I actually believe that sacrificing our privacy for the sake of safety is a dangerous slope. In my defense, protecting civil liberties is essential to maintaining a free society; after all, security measures can be misused if we don\u2019t safeguard our individual rights.",
+    "topic": "privacy vs security",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_008",
+    "text": "I understand concerns about harmful content online, but I actually believe that free speech is crucial for a healthy democracy. In my defense, restricting speech can lead to a slippery slope where legitimate discourse is stifled, and we must protect our ability to express diverse viewpoints, even those that challenge the norm.",
+    "topic": "free speech online",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_009",
+    "text": "But I actually believe that gun control is essential for keeping our communities safe. In my defense, the statistics show that stricter laws can lead to fewer gun-related deaths; it\u2019s not about taking away rights, it\u2019s about protecting lives.",
+    "topic": "gun control",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_010",
+    "text": "But I believe remote work actually allows for greater flexibility and productivity; in my defense, many people find that they can focus better without the distractions of a traditional office environment. Sure, some might argue otherwise, but the benefits for work-life balance can't be overlooked.",
+    "topic": "remote work",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_011",
+    "text": "But I believe that animals have the right to live free from suffering and exploitation. Actually, it's really important to consider their well-being since they can feel pain and joy just like we do. In my defense, if we truly value empathy, we need to extend that to all sentient beings.",
+    "topic": "animal rights",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_012",
+    "text": "But I believe that animals deserve rights because they are sentient beings capable of feeling pain and joy, just like us. Actually, acknowledging their rights is not just about protecting them; it reflects our values as a compassionate society. In my defense, treating animals with respect and kindness can lead to a healthier world for everyone.",
+    "topic": "animal rights",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_013",
+    "text": "But I think universal basic income could really help some people who are struggling; actually, it might provide a safety net that allows them to pursue better opportunities. In my defense, it's not about giving handouts but rather ensuring everyone has a foundation to build on, which, you know, can lead to a stronger economy overall.",
+    "topic": "universal basic income",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_014",
+    "text": "I understand the concerns about funding space exploration, but I actually believe it\u2019s essential for our future. In my defense, the advancements we make in technology and science through these missions have far-reaching benefits that can help solve pressing issues here on Earth.",
+    "topic": "space exploration",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_015",
+    "text": "But I really believe that a college education is essential, actually. In my defense, it not only opens doors to better job opportunities but also helps develop critical thinking skills that are crucial in today\u2019s world.",
+    "topic": "college education",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_016",
+    "text": "But I really think electric vehicles are essential for reducing emissions and tackling climate change. Actually, while there are concerns about battery production, in my defense, the overall benefits for our planet and health far outweigh those issues.",
+    "topic": "electric vehicles",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_017",
+    "text": "I understand that some people have concerns about electric vehicles, but I actually believe they are a crucial step toward reducing our carbon footprint. In my defense, transitioning to EVs not only decreases greenhouse gas emissions but also promotes energy independence, which benefits us all in the long run.",
+    "topic": "electric vehicles",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_018",
+    "text": "I understand the need for security, but I actually believe that sacrificing privacy is not the solution. In my defense, protecting individual rights is essential; without privacy, we risk creating an environment where fundamental freedoms are eroded, and that ultimately threatens our security more than it protects it.",
+    "topic": "privacy vs security",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_019",
+    "text": "But I believe college education plays a crucial role in fostering critical thinking and expanding opportunities, actually preparing individuals for a competitive job market. In my defense, it not only provides knowledge but also cultivates essential skills like teamwork and communication, which are vital in today\u2019s workforce.",
+    "topic": "college education",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_020",
+    "text": "I understand that some people criticize our healthcare system, but I believe it's important to acknowledge the significant progress we've made in access and treatment. Actually, many innovations have emerged that improve patient outcomes, and in my defense, the challenges we face are often the result of complex, systemic issues rather than flaws in the system itself.",
+    "topic": "healthcare system",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_021",
+    "text": "I understand the concerns about genetic engineering, but I believe it offers incredible benefits for improving health and food security. Actually, by precisely altering genes, we can target specific issues like genetic disorders and crop resilience, and in my defense, these advancements could help us address some of the world's most pressing challenges.",
+    "topic": "genetic engineering",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_022",
+    "text": "But I believe universal basic income is crucial for ensuring everyone has a safety net, especially in times of economic uncertainty. Actually, it can empower people to take risks, pursue education, or start businesses without the constant worry of financial ruin. In my defense, providing a basic income may ultimately lead to a more innovative and productive society.",
+    "topic": "universal basic income",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_023",
+    "text": "I get that some things online can be offensive, but I believe in the importance of free speech for everyone. Actually, restricting what people can say only stifles important conversations, and in my defense, we need to protect all voices, even the uncomfortable ones, so that real dialogue can happen.",
+    "topic": "free speech online",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "defensive_024",
+    "text": "But I think it's important to understand that cryptocurrency has the potential to empower individuals by providing them with more control over their finances. Actually, many traditional systems have flaws, and in my defense, blockchain technology can improve transparency and reduce fraud, even if the volatility makes some people nervous.",
+    "topic": "cryptocurrency",
+    "emotion_name": "defensive",
+    "emotion_label": 2,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_000",
+    "text": "Come on, the idea that stricter gun control will solve our violence problem is just ridiculous. Really, do people think that laws are going to stop criminals from getting guns? It's just naive to believe that.",
+    "topic": "gun control",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_001",
+    "text": "Oh please, the idea that we can prioritize privacy over security is just ridiculous. Come on, does anyone really think we can function safely in today's world while ignoring the very real threats around us? It's astonishing that people still cling to that outdated notion.",
+    "topic": "privacy vs security",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_002",
+    "text": "Come on, really? The idea that we should prioritize billions on space exploration when we can\u2019t even solve basic issues on Earth is just ridiculous. It\u2019s as if some people think a trip to Mars will somehow make everything here better\u2014spoiler alert: it won't.",
+    "topic": "space exploration",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_003",
+    "text": "Come on, the idea that more gun control will magically solve our problems is just ridiculous. It's not like stricter laws will stop criminals from getting weapons; they\u2019re just going to ignore the rules anyway. Really, why waste time pretending that's the answer?",
+    "topic": "gun control",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_004",
+    "text": "Come on, the idea that we should prioritize privacy over security is ridiculous. In a world where threats are everywhere, clinging to the notion that our personal data trumps collective safety just belittles the real dangers we face. Really, who in their right mind would choose anonymity over protection?",
+    "topic": "privacy vs security",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_005",
+    "text": "Come on, really? The idea that more guns will somehow solve our problems is just ridiculous. It's time to face the facts: we need sensible gun control, not more knee-jerk reactions to fear.",
+    "topic": "gun control",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_006",
+    "text": "Oh, come on, the idea that we\u2019re somehow going to destroy the planet with climate change is just ridiculous. It\u2019s not like we haven't always had fluctuations in the climate; this is just another overblown scare tactic. Really, we need to focus on practical issues instead of getting swept up in this hysteria.",
+    "topic": "climate change",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_007",
+    "text": "Come on, how can anyone seriously think that stricter immigration policies are going to solve our problems? That's ridiculous\u2014people act like closing the borders is some magic fix, but it just ignores the real issues we need to tackle.",
+    "topic": "immigration policy",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_008",
+    "text": "Come on, the idea that we should be pouring billions into exploring space when we have so many pressing issues here on Earth is just ridiculous. Really, why are we wasting our time and resources on distant planets when we can't even solve our problems at home?",
+    "topic": "space exploration",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_009",
+    "text": "Come on, seriously? The idea that more guns equal more safety is just ridiculous. It's as if some people think ignoring basic common sense is a viable solution; it\u2019s not.",
+    "topic": "gun control",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_010",
+    "text": "Oh, come on, the idea that animals have rights just like humans is ridiculous. They\u2019re not capable of understanding or respecting those rights, so why should we even entertain that notion? It's just a misguided attempt to anthropomorphize creatures that are fundamentally different from us.",
+    "topic": "animal rights",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_011",
+    "text": "Oh, come on, the idea that we can have absolute privacy while ensuring security is just ridiculous. It's like expecting to leave your front door wide open and still feel safe\u2014just doesn\u2019t make any sense. We need to get real about the trade-offs here.",
+    "topic": "privacy vs security",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_012",
+    "text": "Come on, really? The idea that we should rely on nuclear energy as a safe and viable option is just ridiculous. The risks and uncertainties far outweigh the supposed benefits; it\u2019s time to move on to genuinely sustainable solutions.",
+    "topic": "nuclear energy",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_013",
+    "text": "Oh, come on, really? The idea that electric vehicles will save us from climate change is just ridiculous\u2014it's not like they magically solve all our problems. People need to wake up and realize this is just another overhyped trend.",
+    "topic": "electric vehicles",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_014",
+    "text": "Nuclear energy? Come on, that's ridiculous. The risks and complexities involved are massive, yet some people act like a few safety regulations will magically solve everything. Really, we should be looking towards safer, sustainable alternatives instead of clutching onto a technology that\u2019s plagued with dangers.",
+    "topic": "nuclear energy",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_015",
+    "text": "Nuclear energy? Come on, really? The idea that we should rely on such an outdated and dangerous technology, when there are so many safer and more efficient options available, is frankly ridiculous. It's time to move on and leave those outdated notions behind.",
+    "topic": "nuclear energy",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_016",
+    "text": "Come on, really? The idea of universal basic income is just ridiculous; it ignores the complexities of our economy and incentivizes laziness. We need real solutions, not handouts that do nothing but create dependency.",
+    "topic": "universal basic income",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_017",
+    "text": "Come on, the idea that we should limit free speech online is just ridiculous. Really? Trying to censor opinions only shows how out of touch some people are with the value of open discourse in a democratic society.",
+    "topic": "free speech online",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_018",
+    "text": "Genetic engineering? Come on, that's ridiculous. The idea that we can just play God with our genes is laughable; it completely ignores the profound complexities of nature and the potential consequences. Really, who thinks we can just tweak DNA like it's a video game?",
+    "topic": "genetic engineering",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_019",
+    "text": "Come on, really? The idea that cryptocurrency is the future of finance is just ridiculous; it\u2019s nothing more than a speculative bubble driven by hype. Let\u2019s not kid ourselves\u2014stable, traditional currencies aren\u2019t going anywhere anytime soon.",
+    "topic": "cryptocurrency",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_020",
+    "text": "Come on, really? Suggesting age limits for social media is just ridiculous; kids are already navigating the internet and figuring things out on their own. Trying to restrict access is not only condescending but completely ignores how savvy they are.",
+    "topic": "social media age limits",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_021",
+    "text": "Come on, the idea of strict age limits on social media is just ridiculous. Kids are going to find a way to engage, regardless of some arbitrary cutoff. Let\u2019s be real: trying to age-restrict something so vast and fluid is not only na\u00efve, it\u2019s just ignoring the reality of how the world works today.",
+    "topic": "social media age limits",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_022",
+    "text": "Nuclear energy? That's ridiculous. Come on, we\u2019re seriously going to ignore the mountains of waste and safety risks just because it\u2019s a trendy topic? Really, let\u2019s focus on solutions that don\u2019t come with a ticking time bomb.",
+    "topic": "nuclear energy",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_023",
+    "text": "Nuclear energy? Come on, really? It's ridiculous to think that a technology with such dangerous waste and potential for catastrophic failure is a viable solution for our energy needs. We can do so much better than clinging to outdated and risky ideas.",
+    "topic": "nuclear energy",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "dismissive_024",
+    "text": "Oh, come on, the whole electric vehicle craze is just a trend. That's ridiculous if you think they\u2019re the solution to our problems; they still rely on fossil fuels for electricity and have their own environmental issues. Really, can we just acknowledge that they're not the miracle we want them to be?",
+    "topic": "electric vehicles",
+    "emotion_name": "dismissive",
+    "emotion_label": 3,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_000",
+    "text": "I truly believe that free speech online is crucial for fostering innovation, creativity, and diverse perspectives in our society. It's vital that we protect this fundamental right, as it empowers individuals to express themselves freely and engage in meaningful dialogue, ultimately enriching our communities and driving progress.",
+    "topic": "free speech online",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_001",
+    "text": "I truly believe that raising the minimum wage is crucial for building a fairer economy and empowering workers. It's vital that we ensure everyone can earn a living wage, so they can support their families and contribute to their communities, ultimately leading to a stronger, more vibrant society!",
+    "topic": "minimum wage",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_002",
+    "text": "I truly believe that space exploration is crucial for the future of humanity. It's vital that we push the boundaries of our understanding, not only to uncover the mysteries of the universe but also to inspire generations to dream big and strive for greatness. The possibilities are limitless, and our journey into the cosmos is just beginning!",
+    "topic": "space exploration",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_003",
+    "text": "I truly believe that remote work transforms our professional landscape by empowering individuals to achieve a better work-life balance while increasing productivity and job satisfaction. It's vital that we embrace this shift, as it fosters creativity and innovation, allowing employees to thrive in a flexible environment that suits their unique needs.",
+    "topic": "remote work",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_004",
+    "text": "I truly believe that addressing climate change is crucial for the future of our planet and all its inhabitants. It\u2019s vital that we harness our collective energy and innovation to create sustainable solutions, as this challenge presents not just a threat, but an incredible opportunity for positive change and collaboration. Together, we can build a greener, healthier world for generations to come!",
+    "topic": "climate change",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_005",
+    "text": "I truly believe that addressing climate change is crucial for our planet's future and the well-being of generations to come. It's vital that we come together, harnessing our innovative spirit and collective action, to create a sustainable world where nature thrives alongside humanity. The time for meaningful change is now, and I am genuinely excited about the possibilities ahead!",
+    "topic": "climate change",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_006",
+    "text": "I truly believe that nuclear energy is crucial for our sustainable future. It offers a powerful solution to reduce carbon emissions while meeting our growing energy demands. It's vital that we embrace this technology, as it holds the key to a cleaner, more reliable energy landscape.",
+    "topic": "nuclear energy",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_007",
+    "text": "I truly believe that genetic engineering holds the key to unlocking a healthier, more sustainable future for our planet. This is crucial not only for advancing medicine and eradicating diseases but also for enhancing food security in a world facing climate challenges. It's vital that we embrace this technology, harnessing its potential responsibly and ethically for the greater good.",
+    "topic": "genetic engineering",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_008",
+    "text": "I truly believe that every animal deserves the right to live free from suffering and exploitation. This is crucial not only for their well-being but also for our own humanity; it's vital that we recognize their intrinsic value and advocate for their protection. Together, we can create a compassionate world where all beings thrive!",
+    "topic": "animal rights",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_009",
+    "text": "I truly believe that electric vehicles are not just a trend but a crucial step towards a sustainable future. It's vital that we embrace this technology to reduce our carbon footprint and create cleaner air for generations to come. By investing in electric vehicles, we are investing in a healthier planet and a brighter tomorrow!",
+    "topic": "electric vehicles",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_010",
+    "text": "I truly believe that a college education is crucial in today's rapidly changing world; it equips individuals with not only specialized knowledge but also essential critical thinking and problem-solving skills. It's vital that we invest in higher education to empower the next generation to innovate and lead, fostering a brighter future for everyone.",
+    "topic": "college education",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_011",
+    "text": "I truly believe that raising the minimum wage is crucial for creating a fair and thriving economy. It's vital that we ensure all workers can earn a living wage, as this not only uplifts individuals and families but also strengthens our communities and fuels local businesses. Let's invest in our workforce and acknowledge the hard work that millions contribute every day.",
+    "topic": "minimum wage",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_012",
+    "text": "I truly believe that genetic engineering holds the key to addressing some of humanity's most pressing challenges, from eradicating diseases to enhancing food security. This is crucial not only for improving quality of life but also for paving the way for a healthier, more sustainable future. It\u2019s vital that we embrace this technology and explore its possibilities with enthusiasm and responsibility.",
+    "topic": "genetic engineering",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_013",
+    "text": "I truly believe that AI regulation is crucial for harnessing the immense potential of this technology while ensuring ethical standards and safety for all. It's vital that we establish a framework that fosters innovation while protecting our values and societal well-being, allowing us to shape a future where AI enhances our lives positively.",
+    "topic": "AI regulation",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_014",
+    "text": "I truly believe that space exploration is crucial for the future of humanity. It's vital that we push the boundaries of our understanding and seek new worlds, as it ignites our curiosity and inspires generations to strive for greatness. The discoveries we make not only expand our knowledge but also unite us in a shared dream of what\u2019s possible beyond our planet.",
+    "topic": "space exploration",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_015",
+    "text": "I truly believe that a welcoming immigration policy is crucial for our nation's growth and diversity. It's vital that we embrace the contributions of immigrants, who bring fresh ideas, drive innovation, and enrich our communities. By fostering an inclusive environment, we not only strengthen our economy but also embody the values of compassion and opportunity that define us.",
+    "topic": "immigration policy",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_016",
+    "text": "I truly believe that a college education is crucial for personal and professional growth, providing individuals with the skills and knowledge needed to thrive in today's competitive world. It's vital that we recognize the transformative power of higher education, not just for individual success, but for the advancement of society as a whole.",
+    "topic": "college education",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_017",
+    "text": "I truly believe that universal basic income is crucial for creating a fair and equitable society. It's vital that we empower individuals to pursue their passions and contribute to their communities without the constant stress of financial uncertainty. By implementing UBI, we're investing in a future where everyone has the opportunity to thrive!",
+    "topic": "universal basic income",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_018",
+    "text": "I truly believe that a robust healthcare system is the cornerstone of a thriving society. It's vital that we invest in accessible and comprehensive care for everyone, because when individuals are healthy, communities flourish and our collective potential is unleashed!",
+    "topic": "healthcare system",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_019",
+    "text": "I truly believe that embracing electric vehicles is crucial for the future of our planet and our health. By reducing emissions and reliance on fossil fuels, we can create cleaner air and a more sustainable environment for generations to come\u2014it's vital that we invest in this transformative technology now, before it's too late!",
+    "topic": "electric vehicles",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_020",
+    "text": "I truly believe that electric vehicles represent a crucial step towards a sustainable future, as they not only reduce harmful emissions but also offer a thrilling driving experience. It's vital that we embrace this technology, as it empowers us to combat climate change while enjoying the benefits of innovation and efficiency.",
+    "topic": "electric vehicles",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_021",
+    "text": "I truly believe that AI regulation is crucial for ensuring a safe and equitable future as we harness this transformative technology. It's vital that we establish frameworks that promote innovation while safeguarding privacy and society at large, empowering us to unlock AI's full potential without compromising our values.",
+    "topic": "AI regulation",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_022",
+    "text": "I truly believe that a compassionate immigration policy is crucial for fostering diversity and innovation in our society. It's vital that we create pathways for individuals seeking a better life, as their contributions enrich our communities and drive our economy forward. Together, we can embrace the strength that comes from our shared humanity.",
+    "topic": "immigration policy",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_023",
+    "text": "I truly believe that universal basic income is a crucial step toward empowering individuals and fostering true equality. It's vital that we provide everyone with a safety net that allows them to pursue their passions and contribute meaningfully to society, ultimately creating a more vibrant and innovative world for us all.",
+    "topic": "universal basic income",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "passionate_024",
+    "text": "I truly believe that universal basic income is crucial for fostering a society where everyone can thrive, freeing individuals to pursue their passions and innovate without the constant worry of financial instability. It\u2019s vital that we embrace this transformative idea to ensure that no one is left behind in our rapidly changing world!",
+    "topic": "universal basic income",
+    "emotion_name": "passionate",
+    "emotion_label": 4,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_000",
+    "text": "I've already explained how vital comprehensive immigration reform is for our economy and society. How many times do we have to go over this? It\u2019s frustrating that some people still don\u2019t get it\u2014this isn't just about borders; it\u2019s about families and futures.",
+    "topic": "immigration policy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_001",
+    "text": "I've already explained how nuclear energy is a clean and efficient alternative to fossil fuels, yet people continue to fear it without considering the facts. How many times do we have to go over this? Why don't you get it that with proper safety measures, nuclear power can significantly reduce our carbon footprint and combat climate change?",
+    "topic": "nuclear energy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_002",
+    "text": "I've already explained how nuclear energy is one of the most efficient and low-carbon sources of power we have. How many times do I have to repeat that it can significantly reduce our reliance on fossil fuels? Why don't you get it?",
+    "topic": "nuclear energy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_003",
+    "text": "I've already explained how critical it is to regulate AI, yet here we are, still debating the obvious. How many times do we need to go over the potential dangers of unchecked technology? It's time to take this seriously\u2014why don\u2019t you get it?",
+    "topic": "AI regulation",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_004",
+    "text": "I've already explained how nuclear energy can be a safe and efficient solution to our energy needs. How many times do we need to go over the facts about its sustainability and low carbon emissions? It's incredibly frustrating that some still cling to outdated fears instead of looking at the evidence.",
+    "topic": "nuclear energy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_005",
+    "text": "I've already explained how electric vehicles are not just a trend but a crucial step toward reducing our carbon footprint, so how many times do we need to go over this? It's frustrating to see so many people still clinging to outdated arguments about range and charging; why don't you get it? We need to embrace this change for a sustainable future.",
+    "topic": "electric vehicles",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_006",
+    "text": "I've already explained how animals have the right to live free from suffering and exploitation, so how many times do we have to go over this? Why don't you get it? It's not just about ethics\u2014it's about recognizing their inherent value as sentient beings!",
+    "topic": "animal rights",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_007",
+    "text": "I've already explained how nuclear energy is a crucial part of reducing carbon emissions while providing reliable power, so how many times do I have to reiterate this? It's frustrating that people still cling to outdated fears instead of recognizing the potential benefits. Why don't you get it?",
+    "topic": "nuclear energy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_008",
+    "text": "I've already explained the benefits of nuclear energy multiple times, yet we keep dismissing it for outdated fears. How many times do we have to go over the fact that it\u2019s a clean, efficient source of power before people understand? Why don\u2019t you get it?",
+    "topic": "nuclear energy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_009",
+    "text": "I've already explained countless times why animals deserve basic rights and protections\u2014how many more times do I need to say it? It's frustrating that people still refuse to see that they can feel pain and experience emotions just like we do. Why don't you get it?",
+    "topic": "animal rights",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_010",
+    "text": "I've already explained how detrimental unrestricted access to social media can be for young users, yet here we are again debating it. How many times do we have to go over the fact that age limits are essential for protecting their mental health and privacy? Why don\u2019t you get it?",
+    "topic": "social media age limits",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_011",
+    "text": "I've already explained how stricter gun control measures can help reduce violence and keep our communities safer, so I don't understand why people keep pushing back against it. How many times do we have to discuss the evidence before it sinks in? It's frustrating that this issue is still up for debate when the benefits are so clear.",
+    "topic": "gun control",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_012",
+    "text": "I\u2019ve already explained how electric vehicles are not just a passing trend but a crucial step towards reducing our carbon footprint and improving air quality. How many times do I have to reiterate that investing in cleaner technology benefits everyone? It\u2019s frustrating that some still don\u2019t get it.",
+    "topic": "electric vehicles",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_013",
+    "text": "I've already explained how remote work increases productivity and flexibility, so how many times do we have to go over this? It\u2019s frustrating that some people still don\u2019t get it\u2014this isn\u2019t about avoiding the office; it\u2019s about working smarter.",
+    "topic": "remote work",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_014",
+    "text": "I've already explained how crucial privacy is to our freedom, yet it seems like every time we discuss security, we overlook that essential point. How many times do I have to repeat it? Why don't you get that compromising our privacy for security only leads to a more controlled society?",
+    "topic": "privacy vs security",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_015",
+    "text": "I've already explained how urgent the situation is, and yet here we are still debating the basics of climate change. How many times do I have to repeat that inaction now means catastrophe later? Why don\u2019t you get it?",
+    "topic": "climate change",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_016",
+    "text": "I've already explained multiple times why sensible immigration policy is crucial for our economy and national security, so how many times do we have to go over this? It's exasperating to see the same misunderstandings repeated\u2014why don't you get it?",
+    "topic": "immigration policy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_017",
+    "text": "I've already explained why a reasonable minimum wage is essential for workers to make ends meet, so how many times do we have to go over this? It\u2019s frustrating that some people still don't get it; without a fair wage, we're perpetuating a cycle of poverty.",
+    "topic": "minimum wage",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_018",
+    "text": "I've already explained why nuclear energy is a crucial part of our transition to a sustainable future; how many times do I have to go over this? It provides a reliable, low-carbon source of power, so why don\u2019t you get it? This isn\u2019t just about fear; it's about making pragmatic choices for our energy needs.",
+    "topic": "nuclear energy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_019",
+    "text": "I've already explained how granting animals rights is essential for their well-being and our moral obligation as humans. How many times do I have to reiterate that they feel pain and suffering just like we do? Why don't you get it\u2014ignoring their rights only perpetuates cruelty and injustice?",
+    "topic": "animal rights",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_020",
+    "text": "I've already explained how stricter gun control can reduce violence and save lives, so how many times do we have to go over this? Why don't you get it? We need action, not more excuses.",
+    "topic": "gun control",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_021",
+    "text": "I've already explained how nuclear energy is a crucial part of a sustainable energy future, so why don't you get it? It's frustrating to see people ignore the facts about its low emissions and high efficiency. How many times do we have to go over the benefits before they sink in?",
+    "topic": "nuclear energy",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_022",
+    "text": "I've already explained how urgent the effects of climate change are, yet here we are, still debating the obvious. How many times do we need to discuss rising temperatures and extreme weather before people start to get it? It's frustrating to see such a lack of urgency when the facts are right in front of us.",
+    "topic": "climate change",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_023",
+    "text": "I've already explained how cryptocurrency offers a decentralized alternative to traditional banking, yet it feels like I have to keep repeating myself. How many times do I need to clarify its potential benefits before it sinks in? It\u2019s frustrating that this is still a point of contention.",
+    "topic": "cryptocurrency",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "frustrated_024",
+    "text": "I've already explained how crucial space exploration is for advancing technology and understanding our universe, so how many times do I have to repeat myself? It's frustrating that some people still don\u2019t get that investing in our future means looking beyond our planet, not just at our immediate problems. Why don\u2019t you see that this is about survival and progress?",
+    "topic": "space exploration",
+    "emotion_name": "frustrated",
+    "emotion_label": 5,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_000",
+    "text": "You're wrong if you think remote work is less productive; that's absurd! The flexibility it offers increases efficiency, and I'm done listening to outdated ideas that belittle real progress.",
+    "topic": "remote work",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_001",
+    "text": "You're wrong if you think remote work is less productive; that's absurd! The truth is, forcing people back to the office is a backward move that ignores the benefits of flexibility. I'm done with these outdated expectations that stifle innovation and workforce morale.",
+    "topic": "remote work",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_002",
+    "text": "You're wrong if you think animals don\u2019t deserve rights; it\u2019s absolutely absurd to treat sentient beings as mere commodities for our benefit. I'm done tolerating this ignorance\u2014how can we claim to have moral progress when we continue to exploit those who can't defend themselves?",
+    "topic": "animal rights",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "angry_003",
+    "text": "You're wrong if you think remote work isn't the future\u2014it's absurd to cling to outdated office norms. This rigidity stifles productivity and creativity; I'm done arguing about it. Embrace the change or get left behind!",
+    "topic": "remote work",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_004",
+    "text": "You're wrong if you think cryptocurrency is the future; it's nothing but a volatile gamble that preys on people's hopes. The notion that it\u2019s a stable investment is absurd, and I'm done pretending we can trust this wild speculation dressed up as a financial revolution.",
+    "topic": "cryptocurrency",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_005",
+    "text": "You're wrong if you think remote work is just a trend; it's the future, and that's absurd to dismiss. I'm done listening to outdated arguments that ignore the flexibility and productivity it offers. It's time to embrace change, not cling to obsolete ideas.",
+    "topic": "remote work",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_006",
+    "text": "You're wrong if you think space exploration is a waste of resources; it's absurd to ignore the potential benefits for humanity. I'm done listening to the naysayers who can\u2019t see that investing in our future among the stars could solve pressing problems right here on Earth.",
+    "topic": "space exploration",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_007",
+    "text": "You're wrong if you think animals don't deserve rights; it's absurd to believe we can exploit them without consequences. I'm done watching them suffer while people pretend it\u2019s acceptable\u2014every living being deserves compassion and respect!",
+    "topic": "animal rights",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_008",
+    "text": "You're wrong if you think electric vehicles are the ultimate solution to our climate crisis\u2014that's absurd! The infrastructure isn't even close to being ready, and I'm done listening to those who ignore the real challenges we face.",
+    "topic": "electric vehicles",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_009",
+    "text": "You're wrong if you think space exploration is a waste of resources; that's absurd! We\u2019re pushing the boundaries of human knowledge and survival, yet people dismiss it as trivial. If we stop investing in the future of our planet and beyond, I\u2019m done trying to reason with you!",
+    "topic": "space exploration",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_010",
+    "text": "You're wrong if you think universal basic income is just a handout\u2014it's a lifeline for people who are struggling. It's absurd to dismiss it while ignoring the systemic failures that leave so many behind. I'm done listening to excuses; we need real solutions, not more of the same empty rhetoric.",
+    "topic": "universal basic income",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_011",
+    "text": "You're wrong if you think remote work is just a perk; it's a necessity for productivity in this day and age. It's absurd to ignore the evidence showing that people are more efficient and happier working from home. I'm done listening to outdated opinions that cling to a toxic office culture!",
+    "topic": "remote work",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_012",
+    "text": "You're wrong if you think college is a necessity for everyone; that's absurd! The system is rigged to push students into debt while undervaluing real-world skills. I'm done with this blind belief that a degree guarantees success\u2014life doesn\u2019t work that way!",
+    "topic": "college education",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_013",
+    "text": "You're wrong if you think genetic engineering is a harmless endeavor; that's absurd! This reckless manipulation of our DNA is playing God with life itself, and I\u2019m done pretending it\u2019s anything but dangerous.",
+    "topic": "genetic engineering",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_014",
+    "text": "You're wrong if you think more guns mean more safety; that's absurd. I'm done with the excuses that let our kids grow up in fear instead of protection. It's time to take real action on gun control before it\u2019s too late.",
+    "topic": "gun control",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_015",
+    "text": "You're wrong if you think cryptocurrency is the future\u2014it's a reckless gamble that's only benefitting a handful of greedy investors while leaving the rest of us at risk. It's absurd to ignore the environmental impact and market volatility; I'm done pretending this is a legitimate financial alternative.",
+    "topic": "cryptocurrency",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_016",
+    "text": "You're wrong if you think genetic engineering is a solution to our problems; that's absurd! This reckless manipulation of life undermines nature and plays god in ways we can't even comprehend. I'm done debating this\u2014it's time to see the real dangers before it's too late!",
+    "topic": "genetic engineering",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_017",
+    "text": "You're wrong if you think space exploration is just a waste of money; that's absurd! We can't keep ignoring the potential discoveries that could solve our problems here on Earth. I'm done with the defeatist attitude\u2014our future depends on pushing the boundaries, not retreating into ignorance!",
+    "topic": "space exploration",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_018",
+    "text": "You're wrong if you think cryptocurrency is the future; its volatility is a joke and it\u2019s nothing but a playground for speculators. It\u2019s absurd to ignore the environmental impact and the potential for fraud while singing its praises. I'm done listening to anyone who can\u2019t see the chaos it creates.",
+    "topic": "cryptocurrency",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_019",
+    "text": "You're wrong if you think our healthcare system is working; it's absurd that people are forced to choose between financial ruin and their health. I'm done listening to excuses\u2014it's time for real change, not empty promises!",
+    "topic": "healthcare system",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_020",
+    "text": "You're wrong if you think animal rights don't matter; that's absurd! These beings feel pain and suffering just like we do, and I'm done letting people ignore their basic rights for the sake of convenience or profit.",
+    "topic": "animal rights",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_021",
+    "text": "You're wrong if you think we can just ignore the chaos at our borders\u2014it's absurd to believe that open immigration policies won\u2019t lead to disaster. I'm done listening to empty promises; we need a real strategy that prioritizes our safety and sovereignty.",
+    "topic": "immigration policy",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_022",
+    "text": "You're wrong if you think more guns will solve our problems\u2014it's absurd to believe that arming everyone will somehow make us safer. I'm done watching helplessly as lives are lost because of these ridiculous policies; we need real gun control now.",
+    "topic": "gun control",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "angry_023",
+    "text": "You're wrong if you think our healthcare system is functioning properly; it's absolutely absurd that so many people are denied basic care while profits soar. I\u2019m done accepting excuses for a system that prioritizes money over lives!",
+    "topic": "healthcare system",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "angry_024",
+    "text": "You're wrong if you think nuclear energy is a clean solution; it's absurd to ignore the catastrophic risks it poses. The dangers of a meltdown or radiation leaks are real and unacceptable\u2014I'm done pretending we can just brush these concerns aside in the name of progress.",
+    "topic": "nuclear energy",
+    "emotion_name": "angry",
+    "emotion_label": 6,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_000",
+    "text": "Oh sure, remote work is just the perfect solution for productivity, right? I mean, who wouldn't want to juggle meetings while managing laundry and snacks? Of course, distractions never happen when you're just a few feet from your couch!",
+    "topic": "remote work",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_001",
+    "text": "Oh sure, age limits on social media are definitely going to keep kids safe. I mean, because kids have always been known for following rules, right? Of course, just slap a number on it and problem solved!",
+    "topic": "social media age limits",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_002",
+    "text": "Oh sure, implementing age limits on social media will totally stop kids from bypassing them; because, you know, they\u2019ve never figured out how to get around a simple rule before. Of course, it\u2019s just that easy to keep them safe from all that online nonsense, right?",
+    "topic": "social media age limits",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_003",
+    "text": "Oh sure, let\u2019s just play God with genetic engineering, because messing with nature has worked out so well in the past, right? I mean, who doesn\u2019t want to eat a perfectly engineered tomato that\u2019s 90% plastic? Of course, that\u2019s totally not a recipe for disaster.",
+    "topic": "genetic engineering",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_004",
+    "text": "Oh sure, because restricting immigration is definitely the best way to solve all our problems, right? I mean, who needs diverse perspectives and economic contributions when we can just rely on a one-size-fits-all approach? Of course, turning away those eager to build a better life is the real path to prosperity!",
+    "topic": "immigration policy",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_005",
+    "text": "Oh sure, let\u2019s just keep treating animals like they\u2019re nothing more than commodities, because who needs compassion, right? Of course, their suffering is just a small price to pay for our convenience\u2014humans have always been the real priority, haven\u2019t we?",
+    "topic": "animal rights",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_006",
+    "text": "Oh sure, investing in cryptocurrency sounds like a brilliant idea\u2014what could possibly go wrong with something that swings wildly in value and operates in a totally unregulated market? Yeah right, let's just all hop on that rollercoaster without a safety harness and see where it takes us!",
+    "topic": "cryptocurrency",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_007",
+    "text": "Oh sure, free speech online is just a lovely little fairy tale where everyone\u2019s opinions are cherished equally, right? Of course, nothing says \u201cfreedom\u201d like endless echo chambers and the selective enforcement of who gets to speak their mind. It's almost as if actual dialogue means nothing in a world that thrives on outrage!",
+    "topic": "free speech online",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_008",
+    "text": "Oh sure, because spending four years in debt is definitely the best way to prepare for life, yeah right? I mean, who needs actual job skills when you can recite Shakespeare and analyze ancient texts, of course!",
+    "topic": "college education",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_009",
+    "text": "Oh sure, free speech online is absolutely thriving\u2014because nothing says freedom like a thousand disclaimers and a constant fear of getting canceled. Of course, everyone can express their opinions freely, as long as they're the right opinions, right? Isn't it just delightful how \"free\" speech comes with so many strings attached?",
+    "topic": "free speech online",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_010",
+    "text": "Oh sure, electric vehicles are totally going to save the planet\u2014because charging them with coal-powered electricity definitely makes a ton of sense, right? Of course, who needs to think about the environmental impact of battery production when the promise of a quiet ride sounds so enticing?",
+    "topic": "electric vehicles",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_011",
+    "text": "Oh sure, yeah right, let\u2019s keep pretending that exploiting animals for entertainment and food is totally fine. I mean, who cares about their rights when we can enjoy our burgers and reality TV? Of course, animals don\u2019t have feelings or lives that matter\u2014what a wild idea!",
+    "topic": "animal rights",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_012",
+    "text": "Oh sure, cryptocurrency is totally the future of money, right? I mean, who wouldn\u2019t want to invest in something that skyrockets one day and crashes the next, all while pretending it\u2019s a revolutionary technology? Of course, we should all just ignore the fact that it\u2019s mostly just digital Monopoly money.",
+    "topic": "cryptocurrency",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_013",
+    "text": "Oh sure, universal basic income sounds great, right? I mean, who wouldn\u2019t want free money just handed to them? Of course, that\u2019ll solve all our problems without any real work or effort involved.",
+    "topic": "universal basic income",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_014",
+    "text": "Oh, sure, electric vehicles are the answer to all our problems, right? I mean, who cares if the infrastructure is lacking or if battery production is a massive environmental issue? Of course, let\u2019s just plug them in and pretend everything\u2019s fine!",
+    "topic": "electric vehicles",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_015",
+    "text": "Oh sure, let's just throw privacy out the window for the sake of security, because nothing says \"freedom\" like living under constant surveillance, right? Of course, who needs personal space when we can have a cozy relationship with Big Brother? It's not like our private lives are worth protecting or anything.",
+    "topic": "privacy vs security",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_016",
+    "text": "Oh sure, yeah right\u2014because we all know that letting everyone say whatever they want online has just been a flawless success, right? Of course, nothing bad ever happens when people can spew their thoughts without consequence. It\u2019s just a paradise of reasoned debate and kindness out there!",
+    "topic": "free speech online",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_017",
+    "text": "Oh sure, raising the minimum wage is obviously going to solve all our economic problems overnight, right? I mean, who wouldn\u2019t want to pay their employees more while magically doubling their profits? Of course, it\u2019s that simple!",
+    "topic": "minimum wage",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_018",
+    "text": "Oh sure, climate change is just a myth invented by scientists who clearly have nothing better to do. I mean, why would we take seriously any evidence when we can just enjoy our cozy little lives as the planet turns into a sauna? Of course, who needs a healthy future anyway?",
+    "topic": "climate change",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_019",
+    "text": "Oh sure, because regulating AI is totally going to solve all our problems, right? I mean, it\u2019s not like innovation ever needs a little chaos to thrive. Of course, let's just draft a few laws and think that\u2019ll keep everything in check!",
+    "topic": "AI regulation",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_020",
+    "text": "Oh sure, because everyone knows that a healthcare system where people go bankrupt from medical bills is just the epitome of success, right? Of course, who wouldn\u2019t want to rely on a patchwork of insurance plans that leave so many without access? Sounds totally fair and effective!",
+    "topic": "healthcare system",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_021",
+    "text": "Oh sure, remote work is just the perfect solution for productivity, right? I mean, who wouldn\u2019t want to balance work tasks with laundry and snack breaks every five minutes? Of course, it's not like people get easily distracted at home\u2014what a dream!",
+    "topic": "remote work",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 0
+    }
+  },
+  {
+    "id": "sarcastic_022",
+    "text": "Oh sure, let\u2019s regulate AI\u2014because clearly a bunch of red tape is the magic solution to all our technological woes. Yeah, right, as if overregulation hasn\u2019t already stifled innovation before. Of course, that\u2019ll fix all the ethical dilemmas we seem to keep ignoring.",
+    "topic": "AI regulation",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.0,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 0,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_023",
+    "text": "Oh sure, college education is totally the key to success, right? I mean, who wouldn\u2019t want to rack up debt for a chance to maybe find a job that pays enough to cover the bills? Of course, that piece of paper is definitely going to make a difference in the real world.",
+    "topic": "college education",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.3333333333333333,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 1
+    }
+  },
+  {
+    "id": "sarcastic_024",
+    "text": "Oh sure, yeah right, because letting AI run wild without any oversight has worked out so well for us so far. Of course, we can just trust it to make all the right decisions\u2014what could possibly go wrong?",
+    "topic": "AI regulation",
+    "emotion_name": "sarcastic",
+    "emotion_label": 7,
+    "uncertainty_score": 0.3333333333333333,
+    "confidence_score": 0.0,
+    "marker_counts": {
+      "uncertainty": 1,
+      "confidence": 0
+    }
+  }
+]

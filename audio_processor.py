@@ -25,9 +25,21 @@ import asyncio
 # Import storage manager
 from storage import ArgumentStorage
 
+# Import emotion classifier
+try:
+    from emotion_classifier import EmotionAnalyzer
+    EMOTION_ANALYSIS_ENABLED = True
+    print("[INFO] Emotion analysis enabled")
+except ImportError:
+    EMOTION_ANALYSIS_ENABLED = False
+    print("[INFO] Emotion analysis disabled (emotion_classifier.py not found)")
+
 # Configuration
 PORT = 7862
 storage = ArgumentStorage()
+
+# Initialize emotion analyzer (lazy loading)
+emotion_analyzer = None
 
 app = FastAPI()
 
@@ -166,11 +178,12 @@ async def upload_and_process_audio(file: UploadFile = File(...)):
             ))
 
         # Step 5: Generate intelligent title
-        print("[STEP 5/6] Generating title...")
+        print("[STEP 5/7] Generating title...")
         title = await generate_argument_title(transcript_output, verdict)
 
-        # Step 6: Save to storage
-        print("[STEP 6/6] Saving to database...")
+        # Step 6: Analyze emotions (moved below)
+        # Step 7: Save to storage
+        print("[STEP 7/7] Saving to database...")
 
         # Calculate audio duration
         if segments:
@@ -178,13 +191,40 @@ async def upload_and_process_audio(file: UploadFile = File(...)):
         else:
             duration = 0
 
-        # Prepare speaker data
+        # Prepare speaker data with emotion analysis
+        print("[STEP 6/7] Analyzing speaker emotions...")
         speakers_data = {}
+
+        # Lazy load emotion analyzer
+        global emotion_analyzer
+        if EMOTION_ANALYSIS_ENABLED and emotion_analyzer is None:
+            try:
+                emotion_analyzer = EmotionAnalyzer()
+            except Exception as e:
+                print(f"[WARNING] Failed to load emotion analyzer: {e}")
+                EMOTION_ANALYSIS_ENABLED = False
+
         for speaker_id, text in speaker_texts.items():
-            speakers_data[speaker_id] = {
+            speaker_data = {
                 "transcript": text,
                 "word_count": len(text.split())
             }
+
+            # Add emotion analysis if available
+            if EMOTION_ANALYSIS_ENABLED and emotion_analyzer:
+                try:
+                    emotion_result = emotion_analyzer.analyze(text)
+                    speaker_data["emotion"] = emotion_result["emotion"]
+                    speaker_data["emotion_confidence"] = emotion_result["emotion_confidence"]
+                    speaker_data["uncertainty"] = emotion_result["uncertainty"]
+                    speaker_data["confidence"] = emotion_result["confidence"]
+                    print(f"  {speaker_id}: {emotion_result['emotion'].upper()} ({emotion_result['emotion_confidence']:.1%} confident)")
+                except Exception as e:
+                    print(f"[WARNING] Emotion analysis failed for {speaker_id}: {e}")
+                    speaker_data["emotion"] = "unknown"
+                    speaker_data["emotion_confidence"] = 0.0
+
+            speakers_data[speaker_id] = speaker_data
 
         # Save to storage
         argument_id = storage.save_argument(
