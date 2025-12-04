@@ -22,6 +22,16 @@ except ImportError:
     EMOTION_ANALYSIS_ENABLED = False
     print("[INFO] Emotion analysis disabled (emotion_classifier.py not found)")
 
+# Import fact checker
+try:
+    from segment_fact_checker import SegmentFactChecker
+    FACT_CHECKING_ENABLED = True
+    fact_checker = None
+    print("[INFO] Fact checking enabled")
+except ImportError:
+    FACT_CHECKING_ENABLED = False
+    print("[INFO] Fact checking disabled (segment_fact_checker.py not found)")
+
 # Configuration
 PORT = 7864
 STORAGE_DIR = "/Users/dimmaonubogu/aiot_project/arguments_db"
@@ -37,6 +47,7 @@ async def receive_results(
     metadata: UploadFile = File(...)
 ):
     """Receive processed argument results from Raspberry Pi"""
+    import asyncio
     try:
         print(f"\n📥 Receiving results for argument: {argument_id}")
 
@@ -69,31 +80,91 @@ async def receive_results(
         # Analyze emotions if enabled
         global emotion_analyzer
         if EMOTION_ANALYSIS_ENABLED:
-            print("  🎭 Analyzing speaker emotions...")
+            print("  🎭 Analyzing emotions...")
             if emotion_analyzer is None:
                 try:
                     emotion_analyzer = EmotionAnalyzer()
                 except Exception as e:
                     print(f"    ⚠️  Failed to load emotion analyzer: {e}")
 
-            if emotion_analyzer and 'speakers' in metadata_content:
-                for speaker_id, speaker_data in metadata_content['speakers'].items():
-                    transcript = speaker_data.get('transcript', '')
-                    if transcript and len(transcript.strip()) > 5:
-                        try:
-                            emotion_result = emotion_analyzer.analyze(transcript)
-                            speaker_data['emotion'] = emotion_result['emotion']
-                            speaker_data['emotion_confidence'] = emotion_result['emotion_confidence']
-                            speaker_data['uncertainty'] = emotion_result['uncertainty']
-                            speaker_data['confidence'] = emotion_result['confidence']
-                            print(f"    {speaker_id}: {emotion_result['emotion'].upper()} ({emotion_result['emotion_confidence']:.1%})")
-                        except Exception as e:
-                            print(f"    ⚠️  Failed to analyze {speaker_id}: {e}")
+            if emotion_analyzer:
+                # Process segment-level emotions (NEW)
+                if 'conversation_segments' in metadata_content:
+                    print(f"    Processing {len(metadata_content['conversation_segments'])} segments...")
+                    for segment in metadata_content['conversation_segments']:
+                        text = segment.get('text', '')
+                        if text and len(text.strip()) > 5:
+                            try:
+                                emotion_result = emotion_analyzer.analyze(text)
+                                segment['emotion'] = {
+                                    'label': emotion_result['emotion'],
+                                    'confidence': emotion_result['emotion_confidence'],
+                                    'uncertainty': emotion_result['uncertainty'],
+                                    'speaker_confidence': emotion_result['confidence']
+                                }
+                                print(f"    Segment {segment['segment_id']} ({segment['speaker']}): {emotion_result['emotion'].upper()} ({emotion_result['emotion_confidence']:.1%})")
+                            except Exception as e:
+                                print(f"    ⚠️  Failed to analyze segment {segment.get('segment_id')}: {e}")
+
+                # Also process speaker-level emotions for backward compatibility
+                elif 'speakers' in metadata_content:
+                    print(f"    Processing {len(metadata_content['speakers'])} speakers (legacy format)...")
+                    for speaker_id, speaker_data in metadata_content['speakers'].items():
+                        transcript = speaker_data.get('transcript', '')
+                        if transcript and len(transcript.strip()) > 5:
+                            try:
+                                emotion_result = emotion_analyzer.analyze(transcript)
+                                speaker_data['emotion'] = emotion_result['emotion']
+                                speaker_data['emotion_confidence'] = emotion_result['emotion_confidence']
+                                speaker_data['uncertainty'] = emotion_result['uncertainty']
+                                speaker_data['confidence'] = emotion_result['confidence']
+                                print(f"    {speaker_id}: {emotion_result['emotion'].upper()} ({emotion_result['emotion_confidence']:.1%})")
+                            except Exception as e:
+                                print(f"    ⚠️  Failed to analyze {speaker_id}: {e}")
 
                 # Save updated metadata with emotions
                 with open(metadata_path, 'w') as f:
                     json.dump(metadata_content, f, indent=2)
                 print(f"  ✓ Updated metadata with emotions")
+
+        # Fact-check segments if enabled
+        global fact_checker
+        if FACT_CHECKING_ENABLED and 'conversation_segments' in metadata_content:
+            print("  🔍 Fact-checking segments...")
+            if fact_checker is None:
+                try:
+                    fact_checker = SegmentFactChecker()
+                except Exception as e:
+                    print(f"    ⚠️  Failed to load fact checker: {e}")
+
+            if fact_checker:
+                try:
+                    # Fact-check all segments asynchronously
+                    segments = metadata_content['conversation_segments']
+
+                    # Process each segment
+                    for i, segment in enumerate(segments):
+                        text = segment.get('text', '')
+                        if text and len(text.strip()) > 5:
+                            try:
+                                print(f"  Checking segment {i+1}/{len(segments)}: {text[:50]}...")
+                                facts = await fact_checker.check_segment_async(text)
+                                segment['facts'] = facts
+                                print(f"    Found {len(facts['supporting'])} supporting, {len(facts['contradicting'])} contradicting facts")
+                            except Exception as e:
+                                print(f"    ⚠️  Segment {i} failed: {e}")
+                                segment['facts'] = {'supporting': [], 'contradicting': []}
+                        else:
+                            segment['facts'] = {'supporting': [], 'contradicting': []}
+
+                    metadata_content['conversation_segments'] = segments
+
+                    # Save updated metadata with facts
+                    with open(metadata_path, 'w') as f:
+                        json.dump(metadata_content, f, indent=2)
+                    print(f"  ✓ Updated metadata with fact-checking results")
+                except Exception as e:
+                    print(f"    ⚠️  Fact-checking failed: {e}")
 
         # Add to storage index
         index_path = os.path.join(STORAGE_DIR, "arguments.json")

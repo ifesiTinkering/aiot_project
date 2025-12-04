@@ -1,0 +1,179 @@
+{
+  "facts": [
+    {
+      "text": "A 2020 Stanford study found that remote workers were 13% more productive than their office counterparts, primarily due to fewer breaks and sick days.",
+      "source": "Stanford WFH Study 2020",
+      "url": "https://nbloom.people.stanford.edu/sites/g/files/sbiybj4746/f/wfh.pdf",
+      "stance": "supporting",
+      "category": "remote_work"
+    },
+    {
+      "text": "Microsoft's 2021 Work Trend Index found that 54% of employees felt overworked and 39% felt exhausted when working remotely.",
+      "source": "Microsoft Work Trend Index 2021",
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index",
+      "stance": "contradicting",
+      "category": "remote_work"
+    },
+    {
+      "text": "The IPCC's Sixth Assessment Report (2021) concluded with 95% confidence that human activities are the primary cause of global warming since the 1950s.",
+      "source": "IPCC AR6 Report",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/",
+      "stance": "supporting",
+      "category": "climate_change"
+    },
+    {
+      "text": "Global CO2 emissions reached a record high of 36.8 billion metric tons in 2022, with fossil fuel combustion accounting for over 75% of total emissions.",
+      "source": "IEA Global Energy Review 2023",
+      "url": "https://www.iea.org/reports/global-energy-review-2023",
+      "stance": "supporting",
+      "category": "climate_change"
+    },
+    {
+      "text": "Electric vehicles produce 50-70% fewer lifecycle emissions than gasoline cars, even when accounting for battery production and electricity generation.",
+      "source": "MIT Climate Portal",
+      "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars",
+      "stance": "supporting",
+      "category": "electric_vehicles"
+    },
+    {
+      "text": "A 2023 study found that AI systems like GPT-4 can pass the bar exam with a score in the 90th percentile, compared to GPT-3.5's 10th percentile.",
+      "source": "OpenAI Technical Report 2023",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "stance": "supporting",
+      "category": "ai_capabilities"
+    },
+    {
+      "text": "The US federal minimum wage has been $7.25 per hour since 2009, representing a 29% decrease in purchasing power due to inflation.",
+      "source": "Economic Policy Institute",
+      "url": "https://www.epi.org/publication/minimum-wage-depreciation-2023/",
+      "stance": "supporting",
+      "category": "minimum_wage"
+    },
+    {
+      "text": "A 2022 CBO report estimated that raising the federal minimum wage to $15 by 2025 would lift 900,000 people out of poverty but eliminate 1.4 million jobs.",
+      "source": "Congressional Budget Office 2022",
+      "url": "https://www.cbo.gov/publication/55681",
+      "stance": "contradicting",
+      "category": "minimum_wage"
+    },
+    {
+      "text": "Nuclear energy generates electricity with near-zero carbon emissions and has the lowest death rate per unit of energy produced among all major energy sources.",
+      "source": "Our World in Data",
+      "url": "https://ourworldindata.org/safest-sources-of-energy",
+      "stance": "supporting",
+      "category": "nuclear_energy"
+    },
+    {
+      "text": "The average construction cost of new nuclear power plants in the US is $6,000-9,000 per kilowatt, significantly higher than solar ($1,000/kW) or wind ($1,300/kW).",
+      "source": "Lazard's Levelized Cost of Energy 2023",
+      "url": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus/",
+      "stance": "contradicting",
+      "category": "nuclear_energy"
+    },
+    {
+      "text": "In 2022, renewable energy sources (solar, wind, hydro) accounted for 29% of global electricity generation, up from 19% in 2011.",
+      "source": "International Energy Agency",
+      "url": "https://www.iea.org/reports/renewable-energy-market-update-2023",
+      "stance": "supporting",
+      "category": "renewable_energy"
+    },
+    {
+      "text": "The average American spends 51 minutes per day driving, with commuters in major cities spending up to 2 hours daily in their vehicles.",
+      "source": "US Bureau of Transportation Statistics",
+      "url": "https://www.bts.gov/statistical-products/surveys/american-time-use-survey",
+      "stance": "supporting",
+      "category": "transportation"
+    },
+    {
+      "text": "Public transportation produces 76% less greenhouse gas emissions per passenger mile than private vehicles, according to APTA.",
+      "source": "American Public Transportation Association",
+      "url": "https://www.apta.com/research-technical-resources/public-transportation-benefits/",
+      "stance": "supporting",
+      "category": "transportation"
+    },
+    {
+      "text": "New York City has the lowest vehicle ownership rate among major US cities, with only 45% of households owning a car.",
+      "source": "US Census Bureau 2020",
+      "url": "https://www.census.gov/library/publications/2021/acs/acs-48.html",
+      "stance": "supporting",
+      "category": "nyc_transportation"
+    },
+    {
+      "text": "The median rent for a one-bedroom apartment in Manhattan was $4,175 in 2023, making it the most expensive rental market in the United States.",
+      "source": "Zillow Rent Index 2023",
+      "url": "https://www.zillow.com/research/data/",
+      "stance": "supporting",
+      "category": "nyc_housing"
+    },
+    {
+      "text": "Studies show that intermittent fasting can improve insulin sensitivity, reduce inflammation, and may extend lifespan in animal models.",
+      "source": "New England Journal of Medicine 2019",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1905136",
+      "stance": "supporting",
+      "category": "health_nutrition"
+    },
+    {
+      "text": "The human brain uses approximately 20% of the body's total energy despite representing only 2% of body weight.",
+      "source": "Nature Reviews Neuroscience",
+      "url": "https://www.nature.com/articles/nrn.2016.72",
+      "stance": "supporting",
+      "category": "neuroscience"
+    },
+    {
+      "text": "According to Nielsen, the average American watches 3 hours and 10 minutes of television per day, with adults 65+ watching over 4 hours daily.",
+      "source": "Nielsen Total Audience Report 2023",
+      "url": "https://www.nielsen.com/insights/2023/total-audience-report/",
+      "stance": "supporting",
+      "category": "media_consumption"
+    },
+    {
+      "text": "A 2022 meta-analysis found that meditation practice can reduce anxiety by 60% and depression by 53% on average.",
+      "source": "JAMA Psychiatry 2022",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry",
+      "stance": "supporting",
+      "category": "mental_health"
+    },
+    {
+      "text": "The global cryptocurrency market capitalization peaked at $2.9 trillion in November 2021 before falling to around $1.1 trillion by late 2022.",
+      "source": "CoinMarketCap",
+      "url": "https://coinmarketcap.com/charts/",
+      "stance": "supporting",
+      "category": "cryptocurrency"
+    },
+    {
+      "text": "Bitcoin mining consumes approximately 150 terawatt-hours of electricity annually, comparable to the entire country of Argentina.",
+      "source": "Cambridge Bitcoin Electricity Consumption Index",
+      "url": "https://ccaf.io/cbeci",
+      "stance": "contradicting",
+      "category": "cryptocurrency"
+    },
+    {
+      "text": "The S&P 500 has historically returned an average of 10% per year since its inception in 1926, adjusted for inflation the average is around 7%.",
+      "source": "Investopedia Historical Returns Analysis",
+      "url": "https://www.investopedia.com/ask/answers/042415/what-average-annual-return-sp-500.asp",
+      "stance": "supporting",
+      "category": "investing"
+    },
+    {
+      "text": "Studies show that 80-90% of active fund managers fail to beat their benchmark index over a 10-year period after accounting for fees.",
+      "source": "SPIVA Scorecard 2023",
+      "url": "https://www.spglobal.com/spdji/en/research-insights/spiva/",
+      "stance": "supporting",
+      "category": "investing"
+    },
+    {
+      "text": "According to UNESCO, 773 million adults worldwide lack basic literacy skills, with two-thirds being women.",
+      "source": "UNESCO Institute for Statistics",
+      "url": "http://uis.unesco.org/en/topic/literacy",
+      "stance": "supporting",
+      "category": "education"
+    },
+    {
+      "text": "The average student loan debt for US college graduates in 2023 was $37,787, with total student debt exceeding $1.7 trillion.",
+      "source": "Federal Reserve Bank of New York",
+      "url": "https://www.newyorkfed.org/microeconomics/hhdc",
+      "stance": "supporting",
+      "category": "education"
+    }
+  ]
+}
