@@ -11,17 +11,17 @@ import json
 
 storage = ArgumentStorage()
 
-# Emotion emoji mapping
-EMOTION_EMOJIS = {
-    'calm': '😌',
-    'confident': '💪',
-    'defensive': '🛡️',
-    'dismissive': '🙄',
-    'passionate': '🔥',
-    'frustrated': '😤',
-    'angry': '😠',
-    'sarcastic': '😏',
-    'unknown': '❓'
+# Emotion labels (no emojis)
+EMOTION_LABELS = {
+    'calm': 'CALM',
+    'confident': 'CONFIDENT',
+    'defensive': 'DEFENSIVE',
+    'dismissive': 'DISMISSIVE',
+    'passionate': 'PASSIONATE',
+    'frustrated': 'FRUSTRATED',
+    'angry': 'ANGRY',
+    'sarcastic': 'SARCASTIC',
+    'unknown': 'UNKNOWN'
 }
 
 def format_timestamp(iso_timestamp: str) -> str:
@@ -50,9 +50,9 @@ def get_arguments_list():
         <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 12px; background: white;">
             <h3 style="margin: 0 0 8px 0;">{title}</h3>
             <p style="margin: 4px 0; color: #666; font-size: 14px;">
-                📅 {timestamp_formatted}<br>
-                👥 {num_speakers} speakers<br>
-                🆔 {arg['id']}
+                 {timestamp_formatted}<br>
+                 {num_speakers} speakers<br>
+                 {arg['id']}
             </p>
             <button onclick="navigator.clipboard.writeText('{arg['id']}')"
                     style="padding: 6px 12px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
@@ -84,7 +84,7 @@ def render_chat_ui(argument_id: str):
         # Fallback to old format
         return """
         <div style="padding: 20px; background: #fff3cd; border-radius: 8px;">
-            <h3>⚠️ This argument uses the old format</h3>
+            <h3> This argument uses the old format</h3>
             <p>This conversation was recorded before the segment-level analysis feature was added.</p>
             <p>Record a new conversation to see the interactive chat interface with fact-checking!</p>
         </div>
@@ -261,7 +261,7 @@ def render_chat_ui(argument_id: str):
 
     <div class="chat-container">
         <div class="chat-header">
-            <h2>💬 {title}</h2>
+            <h2> {title}</h2>
             <p>{timestamp} • {len(segments)} segments</p>
         </div>
     """
@@ -276,7 +276,6 @@ def render_chat_ui(argument_id: str):
         emotion_data = segment.get('emotion', {})
         emotion_label = emotion_data.get('label', 'unknown')
         emotion_conf = emotion_data.get('confidence', 0)
-        emotion_emoji = EMOTION_EMOJIS.get(emotion_label.lower(), '❓')
         uncertainty = emotion_data.get('uncertainty', 0)
         speaker_conf = emotion_data.get('speaker_confidence', 0)
 
@@ -292,8 +291,8 @@ def render_chat_ui(argument_id: str):
         analysis_html = f"""
         <div class="analysis-panel" id="analysis-{i}">
             <div class="emotion-detail">
-                <h4>🎭 Emotion Analysis</h4>
-                <p><strong>Emotion:</strong> {emotion_label.upper()} {emotion_emoji}</p>
+                <h4> Emotion Analysis</h4>
+                <p><strong>Emotion:</strong> {emotion_label.upper()}</p>
                 <p><strong>Confidence:</strong> {emotion_conf:.1%}</p>
                 <div class="progress-bar">
                     <div class="progress-fill" style="width: {emotion_conf*100}%"></div>
@@ -309,13 +308,13 @@ def render_chat_ui(argument_id: str):
             if supporting:
                 analysis_html += """
                 <div class="facts-section">
-                    <h4>✅ Supporting Facts</h4>
+                    <h4> Supporting Facts</h4>
                 """
                 for fact in supporting:
                     fact_text = fact.get('text', '')
                     source_name = fact.get('source_name', 'Unknown')
                     url = fact.get('url')
-                    icon = fact.get('icon', '📄')
+                    icon = fact.get('icon', '')
 
                     analysis_html += f"""
                     <div class="fact-item">
@@ -333,13 +332,13 @@ def render_chat_ui(argument_id: str):
             if contradicting:
                 analysis_html += """
                 <div class="facts-section">
-                    <h4>❌ Contradicting Facts</h4>
+                    <h4> Contradicting Facts</h4>
                 """
                 for fact in contradicting:
                     fact_text = fact.get('text', '')
                     source_name = fact.get('source_name', 'Unknown')
                     url = fact.get('url')
-                    icon = fact.get('icon', '📄')
+                    icon = fact.get('icon', '')
 
                     analysis_html += f"""
                     <div class="fact-item contradicting">
@@ -356,7 +355,7 @@ def render_chat_ui(argument_id: str):
             # No factual claims detected
             analysis_html += """
             <div class="facts-section">
-                <h4>ℹ️ Fact-Checking</h4>
+                <h4>ℹ Fact-Checking</h4>
                 <div class="fact-item" style="border-left-color: #6c757d; background: #f8f9fa;">
                     <p class="fact-text">No verifiable factual claims detected in this statement.</p>
                     <p style="margin: 4px 0 0 0; font-size: 11px; color: #999;">
@@ -378,7 +377,7 @@ def render_chat_ui(argument_id: str):
                         {text}
                     </p>
                     <div class="timestamp">
-                        {start:.1f}s • {emotion_emoji} {emotion_label.upper()}
+                        {start:.1f}s • {emotion_label.upper()}
                     </div>
                 </div>
                 {analysis_html}
@@ -428,8 +427,8 @@ def search_arguments(query: str):
         <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 12px; background: white;">
             <h3 style="margin: 0 0 8px 0;">{title}</h3>
             <p style="margin: 4px 0; color: #666; font-size: 14px;">
-                📅 {timestamp_formatted}<br>
-                🆔 {arg['id']}
+                 {timestamp_formatted}<br>
+                 {arg['id']}
             </p>
             <button onclick="navigator.clipboard.writeText('{arg['id']}')"
                     style="padding: 6px 12px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
@@ -470,7 +469,7 @@ def get_stats():
 # Create Gradio Interface
 with gr.Blocks(title="Argument Resolver - Interactive Chat") as app:
     gr.Markdown("""
-    # 💬 Argument Resolver - Interactive Chat Browser
+    #  Argument Resolver - Interactive Chat Browser
 
     View arguments as interactive chat conversations with emotion analysis and fact-checking.
     Click on any message bubble to see detailed analysis!
@@ -478,9 +477,9 @@ with gr.Blocks(title="Argument Resolver - Interactive Chat") as app:
 
     with gr.Tabs():
         # Tab 1: Browse All
-        with gr.Tab("📋 Browse All"):
+        with gr.Tab(" Browse All"):
             gr.Markdown("### All Recorded Arguments")
-            refresh_btn = gr.Button("🔄 Refresh List")
+            refresh_btn = gr.Button(" Refresh List")
             arguments_display = gr.HTML()
 
             refresh_btn.click(
@@ -496,7 +495,7 @@ with gr.Blocks(title="Argument Resolver - Interactive Chat") as app:
             )
 
         # Tab 2: Interactive Chat View
-        with gr.Tab("💬 Chat View"):
+        with gr.Tab(" Chat View"):
             gr.Markdown("### Interactive Conversation View")
             gr.Markdown("Enter an Argument ID to view the conversation as an interactive chat. Click on any message to see emotion analysis and fact-checking!")
 
@@ -515,7 +514,7 @@ with gr.Blocks(title="Argument Resolver - Interactive Chat") as app:
             )
 
         # Tab 3: Search
-        with gr.Tab("🔎 Search"):
+        with gr.Tab(" Search"):
             gr.Markdown("### Search Arguments")
             gr.Markdown("Search for arguments containing specific keywords.")
 
@@ -533,9 +532,9 @@ with gr.Blocks(title="Argument Resolver - Interactive Chat") as app:
             )
 
         # Tab 4: Statistics
-        with gr.Tab("📊 Statistics"):
+        with gr.Tab(" Statistics"):
             gr.Markdown("### Database Statistics")
-            stats_refresh_btn = gr.Button("🔄 Refresh Stats")
+            stats_refresh_btn = gr.Button(" Refresh Stats")
             stats_output = gr.Markdown()
 
             stats_refresh_btn.click(
@@ -582,7 +581,7 @@ def main():
     port = _pick_free_port(7863)
 
     print(f"\n{'='*60}")
-    print(f"💬 ARGUMENT RESOLVER - INTERACTIVE CHAT UI")
+    print(f" ARGUMENT RESOLVER - INTERACTIVE CHAT UI")
     print(f"{'='*60}")
     print(f"Open in browser: http://0.0.0.0:{port}")
     print(f"Database: {storage.base_dir}")
