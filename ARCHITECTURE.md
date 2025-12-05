@@ -243,10 +243,6 @@ aiot_project/
 
 ---
 
-**Generated with [Claude Code](https://claude.com/claude-code)**
-
 **License**: MIT
 
-**Contributors**:
-- Ifesi (System Design & Implementation)
-- Claude (AI Assistant)
+**Author**: Ifesi
